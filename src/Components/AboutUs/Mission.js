@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const Mission = () => {
   return (
-    <>
+    <div className="main-page-wrapper">
       <Navbar />
       <div
         className="inner-banner-one pt-225 lg-pt-200 md-pt-150 pb-100 md-pb-70 position-relative"
@@ -38,7 +38,7 @@ const Mission = () => {
           </div>
         </div>
       </div>
-      <div classNameName="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow shadow-sm rounded">
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
         <div className="text-feature-one lg-mt-80">
           <div className="container">
             <div className="row">
@@ -75,6 +75,12 @@ const Mission = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one  lg-mt-80">
+          <div className="container">
             <div className="row">
               <div className="col-lg-6 ms-auto">
                 <div className="row">
@@ -106,6 +112,12 @@ const Mission = () => {
                 />
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one lg-mt-80">
+          <div className="container">
             <div className="row">
               <div className="col-lg-5 wow fadeInLeft">
                 <img
@@ -141,7 +153,7 @@ const Mission = () => {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

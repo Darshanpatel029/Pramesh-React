@@ -3190,7 +3190,7 @@ iframe {
 }
 
 .hero-banner-one {
-  background: #29594b;
+  /* background: #29594b; */
   z-index: 9;
 }
 
@@ -3216,11 +3216,10 @@ iframe {
 }
 
 .hero-banner-one .hero-slider-one .hero-img {
-  position: absolute;
   left: 0;
   right: 0;
   width: 100%;
-  height: 100%;
+  height: 85%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3233,7 +3232,7 @@ iframe {
 }
 
 .hero-banner-one .hero-heading {
-  font-weight: 700;
+  font-weight: 100;
   color: #ffffff;
   background: url(../../src/images/shape/shape_01.png) no-repeat left top;
   background-size: cover;
@@ -5675,8 +5674,8 @@ iframe {
 }
 
 .card-style-two:hover {
-  background: #f8931f;
-  border-color: #f8931f;
+  background: #ff88007c;
+  border-color: #ff88007c;
 }
 
 .card-style-two:hover .arrow-btn {

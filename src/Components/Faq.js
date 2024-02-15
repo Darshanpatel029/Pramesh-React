@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Faq = () => {
   return (
-    <>
+    <div className="main-page-wrapper">
       <div className="faq-section-one mt-150 lg-mt-120 md-mt-80 mt-4">
         <div className="container">
           <div className="row">
@@ -163,7 +163,7 @@ const Faq = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

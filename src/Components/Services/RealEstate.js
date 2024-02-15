@@ -6,9 +6,9 @@ import Img1 from "../../images/media/realEstate.jpg";
 import BannerImg1 from "../../images/lazy.png";
 import { Link } from "react-router-dom";
 
-const MutualFund = () => {
+const RealEstate = () => {
   return (
-    <>
+    <div className="main-page-wrapper">
       <Navbar />
       <div
         className="inner-banner-one pt-225 lg-pt-200 md-pt-150 pb-100 md-pb-70 position-relative"
@@ -62,18 +62,24 @@ const MutualFund = () => {
                       </div>
                       <h4 className="fw-bold mt-20 mb-15">BUY</h4>
                       <p>
-                        Real estate is a className of "real property" that includes
-                        land and anything permanently attached to it, whether
-                        natural or man-made.You can invest in real estate
-                        directly by purchasing a home, rental property or other
-                        property, or indirectly through a real estate investment
-                        trust (REIT).
+                        Real estate is a className of "real property" that
+                        includes land and anything permanently attached to it,
+                        whether natural or man-made.You can invest in real
+                        estate directly by purchasing a home, rental property or
+                        other property, or indirectly through a real estate
+                        investment trust (REIT).
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one  lg-mt-80">
+          <div className="container">
             <div className="row">
               <div className="col-lg-6 ms-auto">
                 <div className="row">
@@ -107,6 +113,12 @@ const MutualFund = () => {
                 />
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one  lg-mt-80">
+          <div className="container">
             <div className="row">
               <div className="col-lg-5 wow fadeInLeft">
                 <img
@@ -144,8 +156,8 @@ const MutualFund = () => {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 
-export default MutualFund;
+export default RealEstate;

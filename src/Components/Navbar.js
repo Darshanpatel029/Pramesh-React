@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <>
+    <div className="main-page-wrapper">
       <header className="theme-main-menu menu-overlay menu-style-one white-vr sticky-menu">
         <div className="inner-content position-relative">
           <div className="top-header">
@@ -47,11 +47,11 @@ const Navbar = () => {
                     </li>
                     <li className="nav-item dropdown">
                       <Link
-                         className="nav-link dropdown-toggle"
-                         role="button"
-                         data-bs-toggle="dropdown"
-                         data-bs-auto-close="outside"
-                         aria-expanded="false"
+                        className="nav-link dropdown-toggle"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        data-bs-auto-close="outside"
+                        aria-expanded="false"
                       >
                         About Us
                       </Link>
@@ -211,7 +211,7 @@ const Navbar = () => {
           </div>
         </div>
       </header>
-    </>
+    </div>
   );
 };
 

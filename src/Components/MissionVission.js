@@ -3,7 +3,7 @@ import BannerImg1 from "../images/lazy.png";
 
 const MissionVission = () => {
   return (
-    <>
+    <div className="main-page-wrapper">
       <div className="block-feature-two mt-80">
         <div className="container">
           <div className="wrapper">
@@ -63,7 +63,7 @@ const MissionVission = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

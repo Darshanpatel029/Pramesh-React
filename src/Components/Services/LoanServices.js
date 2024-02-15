@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const LoanServices = () => {
   return (
-    <>
+    <div className="main-page-wrapper">
       <Navbar />
       <div
         className="inner-banner-one pt-225 lg-pt-200 md-pt-150 pb-100 md-pb-70 position-relative"
@@ -82,6 +82,12 @@ const LoanServices = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one  lg-mt-80">
+          <div className="container">
             <div className="row">
               <div className="col-lg-6 ms-auto">
                 <div className="row">
@@ -115,6 +121,12 @@ const LoanServices = () => {
                 />
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one  lg-mt-80">
+          <div className="container">
             <div className="row">
               <div className="col-lg-5 wow fadeInLeft">
                 <img
@@ -148,6 +160,12 @@ const LoanServices = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one  lg-mt-80">
+          <div className="container">
             <div className="row">
               <div className="col-lg-6 ms-auto">
                 <div className="row">
@@ -181,6 +199,12 @@ const LoanServices = () => {
                 />
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one  lg-mt-80">
+          <div className="container">
             <div className="row">
               <div className="col-lg-5 wow fadeInLeft">
                 <img
@@ -200,7 +224,9 @@ const LoanServices = () => {
                           className="lazy-img"
                         />
                       </div>
-                      <h4 className="fw-bold mt-20 mb-15">COMMERCIAL PURCHASE</h4>
+                      <h4 className="fw-bold mt-20 mb-15">
+                        COMMERCIAL PURCHASE
+                      </h4>
                       <p>
                         A commercial purchase agreement allows for a seller to
                         make a deal with an eligible buyer to transfer ownership
@@ -214,6 +240,12 @@ const LoanServices = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one  lg-mt-80">
+          <div className="container">
             <div className="row">
               <div className="col-lg-6 ms-auto">
                 <div className="row">
@@ -247,6 +279,12 @@ const LoanServices = () => {
                 />
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one  lg-mt-80">
+          <div className="container">
             <div className="row">
               <div className="col-lg-5 wow fadeInLeft">
                 <img
@@ -284,7 +322,7 @@ const LoanServices = () => {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 
