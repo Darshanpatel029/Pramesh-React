@@ -2,7 +2,7 @@ import React from "react";
 
 const BannerTwo = () => {
   return (
-    <div className="main-page-wrapper">
+    <div>
       <div className="text-center position-relative pb-40 md-pb-20 bg-white">
         <div className="row align-items-center">
           <div

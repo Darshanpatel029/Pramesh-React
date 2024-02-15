@@ -1,0 +1,44 @@
+.investment-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1550px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.option {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex-basis: calc(33.333% - 20px);
+    margin-bottom: 15px;
+    padding: 6px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.option:hover {
+    transform: translateY(-5px);
+    background-color: #ff88007c;
+}
+
+.icon {
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    height: 60px;
+    margin-top: 10px;
+    width: 60px;
+}
+
+
+h3 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+p {
+    color: #666
+}
