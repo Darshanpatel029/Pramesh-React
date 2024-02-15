@@ -3,12 +3,11 @@ import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import shape from "../images/shape/shape_26.png";
 import Img1 from "../images/media/img_32.jpg";
-
 import { Link } from "react-router-dom";
 
 const Privacy = () => {
   return (
-    <>
+    <div className="main-page-wrapper">
       <Navbar />
       <div
         className="inner-banner-one pt-225 lg-pt-200 md-pt-150 pb-70 md-pb-70 position-relative"
@@ -156,7 +155,7 @@ const Privacy = () => {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

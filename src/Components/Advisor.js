@@ -1,10 +1,10 @@
 import React from "react";
-  import profileImg from "../images/media/profile.jpg";
+import profileImg from "../images/media/profile.jpg";
 import { Link } from "react-router-dom";
 
 const Advisor = () => {
   return (
-    <>
+    <div className="main-page-wrapper">
       <div className="team-section-one mt-150 lg-mt-80 pt-300">
         <div className="container">
           <div className="position-relative">
@@ -15,7 +15,11 @@ const Advisor = () => {
               <div className="col-lg-3 col-sm-6 wow fadeInUp">
                 <div className="card-style-four mt-35">
                   <div className="media d-flex align-items-center justify-content-center position-relative overflow-hidden ">
-                    <img src={profileImg} alt="img" className="lazy-img w-100" />
+                    <img
+                      src={profileImg}
+                      alt="img"
+                      className="lazy-img w-100"
+                    />
                     <Link
                       to="/Team"
                       className="round-btn rounded-circle d-flex align-items-center justify-content-center tran3s"
@@ -28,10 +32,17 @@ const Advisor = () => {
                   <div className="fs-6">Founder & Managing Director</div>
                 </div>
               </div>
-              <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div
+                className="col-lg-3 col-sm-6 wow fadeInUp"
+                data-wow-delay="0.1s"
+              >
                 <div className="card-style-four mt-35">
                   <div className="media d-flex align-items-center justify-content-center position-relative overflow-hidden">
-                    <img src={profileImg} alt="img" className="lazy-img w-100" />
+                    <img
+                      src={profileImg}
+                      alt="img"
+                      className="lazy-img w-100"
+                    />
                     <Link
                       to="/Team"
                       className="round-btn rounded-circle d-flex align-items-center justify-content-center tran3s"
@@ -44,10 +55,17 @@ const Advisor = () => {
                   <div className="fs-6">Director</div>
                 </div>
               </div>
-              <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
+              <div
+                className="col-lg-3 col-sm-6 wow fadeInUp"
+                data-wow-delay="0.2s"
+              >
                 <div className="card-style-four mt-35">
                   <div className="media d-flex align-items-center justify-content-center position-relative overflow-hidden">
-                    <img src={profileImg} alt="img" className="lazy-img w-100" />
+                    <img
+                      src={profileImg}
+                      alt="img"
+                      className="lazy-img w-100"
+                    />
                     <Link
                       to="/Team"
                       className="round-btn rounded-circle d-flex align-items-center justify-content-center tran3s"
@@ -60,7 +78,10 @@ const Advisor = () => {
                   <div className="fs-6">Director</div>
                 </div>
               </div>
-              <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+              <div
+                className="col-lg-3 col-sm-6 wow fadeInUp"
+                data-wow-delay="0.3s"
+              >
                 <div className="card-style-four mt-35">
                   <div className="media d-flex align-items-center justify-content-center position-relative overflow-hidden">
                     <img
@@ -94,7 +115,7 @@ const Advisor = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

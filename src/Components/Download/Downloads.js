@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const Downloads = () => {
   return (
-    <>
+    <div className="main-page-wrapper">
       <Navbar />
       <div
         className="inner-banner-one pt-225 lg-pt-200 md-pt-150 pb-70 md-pb-70 position-relative"
@@ -76,7 +76,7 @@ const Downloads = () => {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

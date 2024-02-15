@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const MutualFund = () => {
   return (
-    <>
+    <div className="main-page-wrapper">
       <Navbar />
       <div
         className="inner-banner-one pt-225 lg-pt-200 md-pt-150 pb-100 md-pb-70 position-relative"
@@ -53,6 +53,12 @@ const MutualFund = () => {
               losses) on the investment are shared collectively by the investors
               in proportion to their contribution to the fund.
             </p>
+          </div>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one lg-mt-80">
+          <div className="container">
             <div>
               <h3>Why invest in mutual funds ?</h3>
               <p>
@@ -135,7 +141,7 @@ const MutualFund = () => {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

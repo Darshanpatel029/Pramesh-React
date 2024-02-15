@@ -13,7 +13,7 @@ import Footer from "./Footer";
 
 function Main() {
   return (
-    <div>
+    <div className="main-page-wrapper">
       <Navbar />
       <BannerOne />
       <BannerTwo />

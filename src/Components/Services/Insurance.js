@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const Insurance = () => {
   return (
-    <>
+    <div className="main-page-wrapper">
       <Navbar />
       <div
         className="inner-banner-one pt-225 lg-pt-200 md-pt-150 pb-100 md-pb-70 position-relative"
@@ -77,6 +77,12 @@ const Insurance = () => {
                 into sub-categories that clubs in various types of policies.
               </p>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow rounded">
+        <div className="text-feature-one  lg-mt-80">
+          <div className="container">
             <div>
               <h3>
                 Insurance in India can be broadly divided into three categories:
@@ -142,7 +148,7 @@ const Insurance = () => {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 
