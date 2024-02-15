@@ -1,8 +1,14 @@
 import React from "react";
+import "../css/style.css";
 import BannerImg1 from "../images/lazy.png";
 import Point1 from "../images/Banner/point1.png";
 import Point2 from "../images/Banner/point2.png";
 import Point3 from "../images/Banner/point3.png";
+import img1 from "../images/bannerImg/icon1.jpg";
+import img2 from "../images/bannerImg/icon2.jpg";
+import img3 from "../images/bannerImg/icon3.jpg";
+import img4 from "../images/bannerImg/icon4.jpg";
+import img5 from "../images/bannerImg/icon5.jpg";
 import { Link } from "react-router-dom";
 
 const Services = () => {
@@ -63,126 +69,62 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div className="justify-content-center d-flex">
-              <div className="col-lg-4 col-md-6 d-flex wow fadeInUp p-2">
-                <div className="card-style-two vstack tran3s w-100 mt-30">
-                  <img
-                    src={BannerImg1}
-                    alt="img"
-                    className="lazy-img icon me-auto"
-                  />
-                  <h4 className="fw-bold mt-30 mb-25">Mutual fund</h4>
-                  <p className="mb-20">
-                    A mutual fund is an investment vehicle that pools money from
-                    various investors and invests it in a diversified portfolio
-                    of stocks, bonds, or other securities. The mutual fund is
-                    managed by a professional fund manager who buys and sells
-                    securities on behalf of the investors.
-                  </p>
-                  <Link
-                    to="/MutualFund"
-                    className="arrow-btn tran3s mt-auto stretched-link"
-                  >
-                    <img src={BannerImg1} alt="img" className="lazy-img" />
-                  </Link>
+            <div className="investment-options">
+              <Link className="option" to="/MutualFund">
+                <div className="icon equity">
+                  <img src={img1} alt="" />
                 </div>
-              </div>
-              <div
-                className="col-lg-4 col-md-6 d-flex wow fadeInUp p-2"
-                data-wow-delay="0.2s"
-              >
-                <div className="card-style-two vstack tran3s w-100 mt-30">
-                  <img
-                    src={BannerImg1}
-                    alt="img"
-                    className="lazy-img icon me-auto"
-                  />
-                  <h4 className="fw-bold mt-30 mb-25">Equity Investment</h4>
-                  <p className="mb-20">
-                    We work continuous of Research on Fundamentals – Value,
-                    Growth & Technical, which gives you Opportunity base theme
-                    for Investing
-                  </p>
-                  <Link
-                    to="/EquityInvestment"
-                    className="arrow-btn tran3s mt-auto stretched-link"
-                  >
-                    <img src={BannerImg1} alt="img" className="lazy-img" />
-                  </Link>
+                <h3>MutualFund</h3>
+                <p>
+                  A mutual fund is an investment vehicle where many investors
+                  pool their money to earn returns on their capital over a
+                  period.
+                </p>
+              </Link>
+              <Link className="option" to="/EquityInvestment">
+                <div className="icon margin-trading">
+                  <img src={img2} alt="" />
                 </div>
-              </div>
-              <div
-                className="col-lg-4 col-md-6 d-flex wow fadeInUp p-2"
-                data-wow-delay="0.1s"
-              >
-                <div className="card-style-two vstack tran3s w-100 mt-30">
-                  <img
-                    src={BannerImg1}
-                    alt="img"
-                    className="lazy-img icon me-auto"
-                  />
-                  <h4 className="fw-bold mt-30 mb-25">Insurance</h4>
-                  <p className="mb-20">
-                    Insurance is a contract, represented by a policy, in which
-                    an individual or entity receives financial protection or
-                    reimbursement against losses from an insurance company. The
-                    company pools clients' risks to make payments more
-                    affordable for the insured.
-                  </p>
-                  <Link
-                    to="/Insurance"
-                    className="arrow-btn tran3s mt-auto stretched-link"
-                  >
-                    <img src={BannerImg1} alt="img" className="lazy-img" />
-                  </Link>
+                <h3>Equity Investments</h3>
+                <p>
+                  An equity investment is money that is invested in a company by
+                  purchasing shares of that company in the stock market. These
+                  shares are typically traded on a stock exchange.
+                </p>
+              </Link>
+              <Link className="option" to="/Insurance">
+                <div className="icon commodities">
+                  <img src={img3} alt="" />
                 </div>
-              </div>
-              <div
-                className="col-lg-4 col-md-6 d-flex wow fadeInUp p-2"
-                data-wow-delay="0.2s"
-              >
-                <div className="card-style-two vstack tran3s w-100 mt-30">
-                  <img
-                    src={BannerImg1}
-                    alt="img"
-                    className="lazy-img icon me-auto"
-                  />
-                  <h4 className="fw-bold mt-30 mb-25">Loan Services</h4>
-                  <p className="mb-20">
-                    World's Best Strategy Blend with Investment through MIP &
-                    transfer interest income to balanced funds. Best for
-                    moderate F
+                <h3>Insurance</h3>
+                <p>
+                  Insurance is a contract, represented by a policy, in which an
+                  individual or entity receives financial protection or
+                  reimbursement against losses from an insurance company.
+                </p>
+              </Link>
+              <div className="d-flex justify-content-center gap-4 mt-4">
+                <Link className="option" to="/LoanServices">
+                  <div className="icon securities-lending">
+                    <img src={img4} alt="" />
+                  </div>
+                  <h3>Loan Services</h3>
+                  <p>
+                    The loan services enable Spice Money Adhikaris and customers
+                    to avail attractive loans at low interest rates.
                   </p>
-                  <Link
-                    to="/LoanServices"
-                    className="arrow-btn tran3s mt-auto stretched-link"
-                  >
-                    <img src={BannerImg1} alt="img" className="lazy-img" />
-                  </Link>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 d-flex wow fadeInUp p-2">
-                <div className="card-style-two vstack tran3s w-100 mt-30">
-                  <img
-                    src={BannerImg1}
-                    alt="img"
-                    className="lazy-img icon me-auto"
-                  />
-                  <h4 className="fw-bold mt-30 mb-25">Real E State</h4>
-                  <p className="mb-20">
-                    A mutual fund is an investment vehicle that pools money from
-                    various investors and invests it in a diversified portfolio
-                    of stocks, bonds, or other securities. The mutual fund is
-                    managed by a professional fund manager who buys and sells
-                    securities on behalf of the investors.
+                </Link>
+                <Link className="option" to="/RealEstate">
+                  <div className="icon currency">
+                    <img src={img5} alt="" />
+                  </div>
+                  <h3>Real E state</h3>
+                  <p>
+                    Real estate is defined as the land and any permanent
+                    structures, like a home, or improvements attached to the
+                    land, whether natural or man-made.
                   </p>
-                  <Link
-                    to="/RealEstate"
-                    className="arrow-btn tran3s mt-auto stretched-link"
-                  >
-                    <img src={BannerImg1} alt="img" className="lazy-img" />
-                  </Link>
-                </div>
+                </Link>
               </div>
             </div>
             <div className="section-subheading sm-mt-40">
