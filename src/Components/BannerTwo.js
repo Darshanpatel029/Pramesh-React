@@ -5,10 +5,7 @@ const BannerTwo = () => {
     <div>
       <div className="text-center position-relative pb-40 md-pb-20 bg-white">
         <div className="row align-items-center">
-          <div
-            className="text-center text-md-end"
-            style={{ marginTop: "-80px" }}
-          >
+          <div className="text-center text-md-end">
             <div className="text-center">
               <h2
                 className="pe-md-4 sm-pb-50 mt-4"

@@ -1,9 +1,7 @@
 import React from "react";
 import "../css/style.css";
 import BannerImg1 from "../images/lazy.png";
-import Point1 from "../images/Banner/point1.png";
-import Point2 from "../images/Banner/point2.png";
-import Point3 from "../images/Banner/point3.png";
+
 import img1 from "../images/bannerImg/icon1.jpg";
 import img2 from "../images/bannerImg/icon2.jpg";
 import img3 from "../images/bannerImg/icon3.jpg";
@@ -15,51 +13,7 @@ const Services = () => {
   return (
     <div className="main-page-wrapper">
       <div className="block-feature-one position-relative pt-75">
-        <div className="upper-wrapper mb-110 lg-mb-80">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-4 wow fadeInUp">
-                <div className="card-style-one d-flex w-100 mb-35">
-                  <div className="icon tran3s rounded-circle d-flex align-items-center justify-content-center">
-                    <img src={Point1} alt="img" className="lazy-img" />
-                  </div>
-                  <div className="text ps-4">
-                    <h4 className="fw-bold">
-                      Hassle Free demat and trading account Opening
-                    </h4>
-                    <p className="pe-xl-4"></p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                <div className="card-style-one d-flex w-100 mb-35">
-                  <div className="icon tran3s rounded-circle d-flex align-items-center justify-content-center">
-                    <img src={Point2} alt="img" className="lazy-img" />
-                  </div>
-                  <div className="text ps-4">
-                    <h4 className="fw-bold">
-                      Unique trading experience with latest technology
-                    </h4>
-                    <p className="pe-xl-4"></p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
-                <div className="card-style-one d-flex w-100 mb-35">
-                  <div className="icon tran3s rounded-circle d-flex align-items-center justify-content-center">
-                    <img src={Point3} alt="img" className="lazy-img" />
-                  </div>
-                  <div className="text ps-4">
-                    <h4 className="fw-bold">
-                      360 degree fundamental & technical analysis
-                    </h4>
-                    <p className="pe-xl-4"></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        
         <div className="container">
           <div className="position-relative">
             <div className="row">
