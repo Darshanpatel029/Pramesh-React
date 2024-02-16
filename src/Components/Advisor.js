@@ -5,14 +5,16 @@ import { Link } from "react-router-dom";
 const Advisor = () => {
   return (
     <div className="main-page-wrapper">
-      <div className="team-section-one mt-150 lg-mt-80 pt-300">
+      <div className="team-section-one mt-200 lg-mt-80 pt-300">
         <div className="container">
           <div className="position-relative">
             <div className="title-one mb-40 lg-mb-20 wow fadeInUp">
-              <h2>Our Advisor.</h2>
+              <h2 style={{ fontSize: "42px", fontWeight: "200" }}>
+                Our Advisor
+              </h2>
             </div>
-            <div className="row">
-              <div className="col-lg-3 col-sm-6 wow fadeInUp">
+            <div className="row justify-content-center">
+              <div className="col-lg-2 col-sm-6 wow fadeInUp">
                 <div className="card-style-four mt-35">
                   <div className="media d-flex align-items-center justify-content-center position-relative overflow-hidden ">
                     <img
@@ -33,7 +35,7 @@ const Advisor = () => {
                 </div>
               </div>
               <div
-                className="col-lg-3 col-sm-6 wow fadeInUp"
+                className="col-lg-2 col-sm-6 wow fadeInUp"
                 data-wow-delay="0.1s"
               >
                 <div className="card-style-four mt-35">
@@ -56,7 +58,7 @@ const Advisor = () => {
                 </div>
               </div>
               <div
-                className="col-lg-3 col-sm-6 wow fadeInUp"
+                className="col-lg-2 col-sm-6 wow fadeInUp"
                 data-wow-delay="0.2s"
               >
                 <div className="card-style-four mt-35">
@@ -79,7 +81,7 @@ const Advisor = () => {
                 </div>
               </div>
               <div
-                className="col-lg-3 col-sm-6 wow fadeInUp"
+                className="col-lg-2 col-sm-6 wow fadeInUp"
                 data-wow-delay="0.3s"
               >
                 <div className="card-style-four mt-35">

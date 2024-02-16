@@ -9,7 +9,9 @@ const Faq = () => {
           <div className="row">
             <div className="col-lg-5 wow fadeInLeft">
               <div className="title-one mb-40 lg-mb-20">
-                <h2>Questions & Answers</h2>
+                <h2 style={{ fontSize: "42px", fontWeight: "200" }}>
+                  Questions & Answers
+                </h2>
               </div>
               <p className="text-lg mb-40 lg-mb-20">
                 Don’t find the answer? We can help
@@ -18,7 +20,7 @@ const Faq = () => {
                 Contact us
               </Link>
             </div>
-            <div className="col-lg-7">
+            <div>
               <div
                 className="accordion accordion-style-one mt-15 md-mt-50"
                 id="accordionOne"
@@ -29,22 +31,21 @@ const Faq = () => {
                       className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
-                      data-bs-target="#collapseTwo"
+                      data-bs-target="#collapseOne"
                       aria-expanded="false"
-                      aria-controls="collapseTwo"
+                      aria-controls="collapseOne"
                     >
                       How does the free trial work?
                     </button>
                   </h2>
                   <div
-                    id="collapseTwo"
+                    id="collapseOne"
                     className="accordion-collapse collapse"
                     data-bs-parent="#accordionOne"
                   >
                     <div className="accordion-body">
                       <p>
-                        Quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor
+                        Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
                         in reprehenderit in voluptate velit .
                       </p>
                     </div>
@@ -92,7 +93,7 @@ const Faq = () => {
                   </h2>
                   <div
                     id="collapseThree"
-                    className="accordion-collapse collapse show"
+                    className="accordion-collapse collapse"
                     data-bs-parent="#accordionOne"
                   >
                     <div className="accordion-body">

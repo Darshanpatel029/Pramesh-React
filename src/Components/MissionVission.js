@@ -4,7 +4,10 @@ import BannerImg1 from "../images/lazy.png";
 const MissionVission = () => {
   return (
     <div className="main-page-wrapper">
-      <div className="block-feature-two mt-80">
+      <div
+        className="block-feature-two mt-80"
+        style={{ backgroundColor: "#ebf3ee" }}
+      >
         <div className="container">
           <div className="wrapper">
             <div className="row align-items-center">
