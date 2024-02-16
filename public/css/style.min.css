@@ -11999,3 +11999,17 @@ body.compensate-for-scrollbar {
   border-radius: 10px;
   background-color: #b3cfbe;
 }
+
+@keyframes zoomIn {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.1);
+  }
+}
+
+.ourMisson.zoomIn {
+  animation: zoomIn 3s ease-in-out;
+}

@@ -42,3 +42,33 @@ h3 {
 p {
     color: #666
 }
+
+@keyframes slideLeftToRight {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.option.slide-left-to-right {
+    animation: slideLeftToRight 3.5s ease-in-out;
+}
+
+@keyframes slideRightToLeft {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.option.slide-right-to-left {
+    animation: slideRightToLeft 3.5s ease-in-out;
+}

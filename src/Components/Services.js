@@ -23,7 +23,7 @@ const Services = () => {
               </div>
             </div>
             <div className="investment-options">
-              <Link className="option" to="/MutualFund">
+              <Link className="option slide-left-to-right" to="/MutualFund">
                 <div className="icon equity">
                   <img src={img1} alt="" />
                 </div>
@@ -34,7 +34,7 @@ const Services = () => {
                   period.
                 </p>
               </Link>
-              <Link className="option" to="/EquityInvestment">
+              <Link className="option slide-left-to-right" to="/EquityInvestment">
                 <div className="icon margin-trading">
                   <img src={img2} alt="" />
                 </div>
@@ -45,7 +45,7 @@ const Services = () => {
                   shares are typically traded on a stock exchange.
                 </p>
               </Link>
-              <Link className="option" to="/Insurance">
+              <Link className="option slide-left-to-right" to="/Insurance">
                 <div className="icon commodities">
                   <img src={img3} alt="" />
                 </div>
@@ -57,7 +57,7 @@ const Services = () => {
                 </p>
               </Link>
               <div className="d-flex justify-content-center gap-4 mt-4">
-                <Link className="option" to="/LoanServices">
+                <Link className="option slide-right-to-left" to="/LoanServices">
                   <div className="icon securities-lending">
                     <img src={img4} alt="" />
                   </div>
@@ -67,11 +67,11 @@ const Services = () => {
                     to avail attractive loans at low interest rates.
                   </p>
                 </Link>
-                <Link className="option" to="/RealEstate">
+                <Link className="option slide-right-to-left" to="/RealEstate">
                   <div className="icon currency">
                     <img src={img5} alt="" />
                   </div>
-                  <h3 className="fw-bold">Real E state</h3>
+                  <h3 className="fw-bold">Real Estate</h3>
                   <p className="text-dark">
                     Real estate is defined as the land and any permanent
                     structures, like a home, or improvements attached to the
