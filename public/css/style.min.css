@@ -3191,7 +3191,7 @@ iframe {
 
 .hero-banner-one {
   /* background: #29594b; */
-  z-index: 9;
+  /* z-index: 9; */
 }
 
 .hero-banner-one::before {
@@ -3219,7 +3219,7 @@ iframe {
   left: 0;
   right: 0;
   width: 100%;
-  height: 85%;
+  height: 91%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -11987,4 +11987,15 @@ body.compensate-for-scrollbar {
   background: #f9f8f8;
   box-shadow: 17px 17px 34px #bebebe,
     -17px -17px 34px #ffffff;
+}
+
+.BannerThreeMain {
+  margin-top: -130px;
+  position: absolute;
+  z-index: 10;
+}
+
+.BannerThreeWrapper {
+  border-radius: 10px;
+  background-color: #ebf3ee;
 }

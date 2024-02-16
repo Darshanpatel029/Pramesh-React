@@ -10,12 +10,14 @@ import Advisor from "./Advisor";
 import Faq from "./Faq";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import BannerThree from "./BannerThree";
 
 function Main() {
   return (
     <div className="main-page-wrapper">
       <Navbar />
       <BannerOne />
+      <BannerThree/>
       <BannerTwo />
       <Services />
       <MissionVission />
