@@ -10,7 +10,9 @@ const Contact = () => {
             <div className="row">
               <div className="col-lg-8 m-auto">
                 <div className="title-one">
-                  <h2>Want to chat? Feel free to contact our team.</h2>
+                  <h2 style={{ fontSize: "42px", fontWeight: "200" }}>
+                    Want to chat? Feel free to contact our team.
+                  </h2>
                 </div>
                 <p className="text-lg mt-40 lg-mt-30 mb-30">
                   Contact our friendly team for quick and helpful answers.

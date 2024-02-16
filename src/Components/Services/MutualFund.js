@@ -17,7 +17,7 @@ const MutualFund = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <h1 className="hero-heading d-inline-block position-relative me-xxl-4 me-lg-5">
-                Services
+                MutualFund
                 <img src={shape} alt="img" />
               </h1>
             </div>
@@ -41,7 +41,9 @@ const MutualFund = () => {
         <div className="text-feature-one lg-mt-80">
           <div className="container">
             <div>
-              <h2>Mutual Funds</h2>
+              <h2 style={{ fontSize: "42px", fontWeight: "200" }}>
+                Mutual Funds
+              </h2>
             </div>
             <p>
               A mutual fund is an investment vehicle where many investors pool

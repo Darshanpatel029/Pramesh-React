@@ -17,7 +17,7 @@ const Insurance = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <h1 className="hero-heading d-inline-block position-relative me-xxl-4 me-lg-5">
-                Services
+                Insurance
                 <img src={shape} alt="img" />
               </h1>
             </div>
@@ -45,7 +45,7 @@ const Insurance = () => {
                 src={"https://www.prameshwealth.com/log1/jugnu5.jpg"}
                 alt="img"
               />
-              <h2>Insurance</h2>
+              <h2 style={{ fontSize: "42px", fontWeight: "200" }}>Insurance</h2>
             </div>
             <div>
               <p>

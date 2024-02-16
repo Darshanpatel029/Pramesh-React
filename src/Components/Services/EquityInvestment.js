@@ -5,7 +5,7 @@ import shape from "../../images/shape/shape_26.png";
 import Img1 from "../../images/media/equityInvestment.jpg";
 import { Link } from "react-router-dom";
 
-const MutualFund = () => {
+const EquityInvestment = () => {
   return (
     <div className="main-page-wrapper">
       <Navbar />
@@ -17,7 +17,7 @@ const MutualFund = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <h1 className="hero-heading d-inline-block position-relative me-xxl-4 me-lg-5">
-                Services
+              Equity Investment
                 <img src={shape} alt="img" />
               </h1>
             </div>
@@ -45,7 +45,7 @@ const MutualFund = () => {
                 src={"https://www.prameshwealth.com/log1/jugnu4.png"}
                 alt="img"
               />
-              <h2>Equity Investments</h2>
+              <h2 style={{ fontSize: "42px", fontWeight: "200" }}>Equity Investments</h2>
             </div>
             <p>
               An equity investment is money that is invested in a company by
@@ -132,4 +132,4 @@ const MutualFund = () => {
   );
 };
 
-export default MutualFund;
+export default EquityInvestment;

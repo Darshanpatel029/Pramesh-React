@@ -4,11 +4,14 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="main-page-wrapper">
-      <header className="theme-main-menu menu-overlay menu-style-one white-vr sticky-menu">
+    <div>
+      <header
+        className="theme-main-menu menu-overlay menu-style-one white-vr sticky-menu"
+        style={{ position: "fixed", backgroundColor: "#b3cfbed1" }}
+      >
         <div className="inner-content position-relative">
           <div className="top-header">
-            <div className="d-flex align-items-center justify-content-between">
+            <div className="d-flex align-items-center justify-content-around">
               <div className="logo order-lg-0">
                 <Link to="/" className="d-flex align-items-center navImg">
                   <img src={img1} alt="img" />
@@ -41,17 +44,22 @@ const Navbar = () => {
                       <div className="logo"></div>
                     </li>
                     <li className="nav-item dropdown">
-                      <Link to="/" className="nav-link dropdown-toggle">
+                      <Link
+                        to="/"
+                        className="nav-link dropdown-toggle fw-bold"
+                        style={{ color: "black" }}
+                      >
                         Home
                       </Link>
                     </li>
                     <li className="nav-item dropdown">
                       <Link
-                        className="nav-link dropdown-toggle"
+                        className="nav-link dropdown-toggle fw-bold"
                         role="button"
                         data-bs-toggle="dropdown"
                         data-bs-auto-close="outside"
                         aria-expanded="false"
+                        style={{ color: "black" }}
                       >
                         About Us
                       </Link>
@@ -75,11 +83,12 @@ const Navbar = () => {
                     </li>
                     <li className="nav-item dropdown">
                       <Link
-                        className="nav-link dropdown-toggle"
+                        className="nav-link dropdown-toggle fw-bold"
                         role="button"
                         data-bs-toggle="dropdown"
                         data-bs-auto-close="outside"
                         aria-expanded="false"
+                        style={{ color: "black" }}
                       >
                         Services
                       </Link>
@@ -117,8 +126,9 @@ const Navbar = () => {
                     <li className="nav-item dropdown">
                       <Link
                         to="/Team"
-                        className="nav-link dropdown-toggle"
+                        className="nav-link dropdown-toggle fw-bold"
                         role="button"
+                        style={{ color: "black" }}
                       >
                         Our Team
                       </Link>
@@ -126,8 +136,9 @@ const Navbar = () => {
                     <li className="nav-item dropdown">
                       <Link
                         to="/Downloads"
-                        className="nav-link dropdown-toggle"
+                        className="nav-link dropdown-toggle fw-bold"
                         role="button"
+                        style={{ color: "black" }}
                       >
                         Downloads
                       </Link>
@@ -135,11 +146,12 @@ const Navbar = () => {
                     <li className="nav-item dropdown">
                       <Link
                         to="/"
-                        className="nav-link dropdown-toggle"
+                        className="nav-link dropdown-toggle fw-bold"
                         role="button"
                         data-bs-toggle="dropdown"
                         data-bs-auto-close="outside"
                         aria-expanded="false"
+                        style={{ color: "black" }}
                       >
                         Log In
                       </Link>
@@ -189,13 +201,6 @@ const Navbar = () => {
                         </li>
                       </ul>
                     </li>
-                    <li className="nav-item">
-                      <Link to="/contactUs" className="nav-link" role="button">
-                        {" "}
-                        Contact Us
-                      </Link>
-                    </li>
-
                     <li className="d-md-none ps-2 pe-2">
                       <Link
                         to="/contactUs"

@@ -20,7 +20,6 @@
 
 body {
   font-family: "Poppins", sans-serif;
-
   font-weight: normal;
   font-size: 20px;
   position: relative;
@@ -3232,7 +3231,7 @@ iframe {
 }
 
 .hero-banner-one .hero-heading {
-  font-weight: 100;
+  font-weight: 200;
   color: #ffffff;
   background: url(../../src/images/shape/shape_01.png) no-repeat left top;
   background-size: cover;
@@ -3853,7 +3852,7 @@ iframe {
 }
 
 .inner-banner-one .hero-heading {
-  font-weight: 700;
+  /* font-weight: 700; */
   font-size: 85px;
   line-height: 1.023em;
   z-index: 1;
@@ -3866,6 +3865,7 @@ iframe {
   bottom: 0;
   z-index: -1;
   max-height: 100%;
+  width: 100%;
 }
 
 .inner-banner-one .pager {
@@ -11997,5 +11997,5 @@ body.compensate-for-scrollbar {
 
 .BannerThreeWrapper {
   border-radius: 10px;
-  background-color: #ebf3ee;
+  background-color: #b3cfbe;
 }
