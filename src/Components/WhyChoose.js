@@ -13,8 +13,8 @@ const WhyChoose = () => {
                   <h2 style={{ fontSize: "42px", fontWeight: "200" }}>
                     Why Choose Pramesh
                   </h2>
-                  <div className="investment-options">
-                    <div className="card p-4 mt-2 col-4 option">
+                  <div className="investment-options ">
+                    <div className="card p-4 mt-2 col-4 option slide-left-to-right">
                       <h3 className="text-center fw-bold">Client-Centricity</h3>
                       <div>
                         We prioritize the needs and goals of our clients,
@@ -22,7 +22,7 @@ const WhyChoose = () => {
                         relationships based on trust and reliability.
                       </div>
                     </div>
-                    <div className="card p-4 mt-2 col-4 option">
+                    <div className="card p-4 mt-2 col-4 option slide-left-to-right">
                       <h3 className="text-center fw-bold">Value Creation</h3>
                       <div>
                         We believe in creating value for our clients by focusing
@@ -31,7 +31,7 @@ const WhyChoose = () => {
                         financial objectives.
                       </div>
                     </div>
-                    <div className="card p-4 mt-2 col-4 option">
+                    <div className="card p-4 mt-2 col-4 option slide-left-to-right">
                       <h3 className="text-center fw-bold">Trust Worthiness</h3>
                       <div>
                         We aim to be a trusted advisor, demonstrating integrity,
@@ -41,7 +41,7 @@ const WhyChoose = () => {
                     </div>
                   </div>
                   <div className="investment-options">
-                    <div className="card p-4 mt-2 col-4 option">
+                    <div className="card p-4 mt-2 col-4 option slide-right-to-left">
                       <h3 className="text-center fw-bold">Innovative and Latest Technology Focus</h3>
                       <div>
                         We embrace innovation and leverage technology to enhance
@@ -49,7 +49,7 @@ const WhyChoose = () => {
                         approach to personal finance management.
                       </div>
                     </div>
-                    <div className="card p-4 mt-2 col-4 option">
+                    <div className="card p-4 mt-2 col-4 option slide-right-to-left">
                       <h3 className="text-center fw-bold">Global Perspective</h3>
                       <div>
                         We offer global products and solutions, ensuring our
@@ -57,7 +57,7 @@ const WhyChoose = () => {
                         irrespective of geographical limitations.
                       </div>
                     </div>
-                    <div className="card p-4 mt-2 col-4 option">
+                    <div className="card p-4 mt-2 col-4 option slide-right-to-left">
                       <h3 className="text-center fw-bold">Expertise and Wisdom</h3>
                       <div>
                         With our combined experience and expertise, we provide

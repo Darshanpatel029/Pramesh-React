@@ -12,7 +12,7 @@ const MissionVission = () => {
           <div className="wrapper">
             <div className="row align-items-center">
               <div className="col-md-4">
-                <div className="card-style-three pt-45 md-pt-30 pb-35 sm-pb-30">
+                <div className="card-style-three pt-45 md-pt-30 pb-35 sm-pb-30 ourMisson zoomIn">
                   <img
                     src={BannerImg1}
                     alt="img"
@@ -32,7 +32,7 @@ const MissionVission = () => {
               </div>
               <div className="col-md-5">
                 <div className="border-line h-100 ps-lg-5 pe-lg-5 ps-md-3 pe-md-3">
-                  <div className="card-style-three pt-45 md-pt-30 pb-35 sm-pb-30">
+                  <div className="card-style-three pt-45 md-pt-30 pb-35 sm-pb-30 ourMisson zoomIn">
                     <img
                       src={BannerImg1}
                       data-src="images/icon/icon_11.png"
