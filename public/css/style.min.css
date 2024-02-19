@@ -209,7 +209,6 @@ hr {
 }
 
 @keyframes letters-loading {
-
   0%,
   75%,
   100% {
@@ -251,9 +250,11 @@ hr {
   height: 10px;
   width: 90%;
   opacity: 1;
-  background: radial-gradient(ellipse at center,
-      rgba(0, 0, 0, 0.25) 0%,
-      rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(
+    ellipse at center,
+    rgba(0, 0, 0, 0.25) 0%,
+    rgba(0, 0, 0, 0) 80%
+  );
 }
 
 .tran3s {
@@ -3087,7 +3088,7 @@ iframe {
     transform: translateY(0);
   }
 
-  .navbar .dropdown:hover>.dropdown-menu {
+  .navbar .dropdown:hover > .dropdown-menu {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
@@ -3200,9 +3201,11 @@ iframe {
   height: 100%;
   left: 0px;
   top: 0px;
-  background: linear-gradient(180deg,
-      rgba(0, 0, 0, 0.53) 0%,
-      rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.53) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
 
 .hero-banner-one .hero-slider-one {
@@ -3833,9 +3836,11 @@ iframe {
   top: 0;
   left: 0;
   z-index: -1;
-  background: linear-gradient(180deg,
-      rgba(0, 0, 0, 0.53) 0%,
-      rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.53) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
 
 .inner-banner-one::after {
@@ -3846,9 +3851,11 @@ iframe {
   top: 0;
   left: 0;
   z-index: -1;
-  background: linear-gradient(121.31deg,
-      rgba(0, 0, 0, 0) 0.55%,
-      rgba(0, 0, 0, 0.88) 98.35%);
+  background: linear-gradient(
+    121.31deg,
+    rgba(0, 0, 0, 0) 0.55%,
+    rgba(0, 0, 0, 0.88) 98.35%
+  );
 }
 
 .inner-banner-one .hero-heading {
@@ -5004,11 +5011,17 @@ iframe {
   padding: 0 60px;
 }
 
-.faq-section-three .tab-content .accordion-style-one .accordion-item:last-child {
+.faq-section-three
+  .tab-content
+  .accordion-style-one
+  .accordion-item:last-child {
   border-bottom: none;
 }
 
-.faq-section-three .tab-content .accordion-style-one .accordion-item:first-child {
+.faq-section-three
+  .tab-content
+  .accordion-style-one
+  .accordion-item:first-child {
   border-top: none;
 }
 
@@ -5240,13 +5253,21 @@ iframe {
   max-width: 610px;
 }
 
-.accordion-style-two .accordion-item .accordion-body .media-wrapper .video-icon {
+.accordion-style-two
+  .accordion-item
+  .accordion-body
+  .media-wrapper
+  .video-icon {
   width: 90px;
   height: 90px;
   background: #fff;
 }
 
-.accordion-style-two .accordion-item .accordion-body .media-wrapper .video-icon:hover {
+.accordion-style-two
+  .accordion-item
+  .accordion-body
+  .media-wrapper
+  .video-icon:hover {
   background: #cfff45;
 }
 
@@ -5445,7 +5466,11 @@ iframe {
   transition: all 0.2s ease-in-out;
 }
 
-.user-data-form .form-wrapper .input-group-meta .placeholder_icon span.eye-slash:before {
+.user-data-form
+  .form-wrapper
+  .input-group-meta
+  .placeholder_icon
+  span.eye-slash:before {
   opacity: 0;
 }
 
@@ -5483,7 +5508,10 @@ iframe {
   transition: all 0.1s ease-in-out;
 }
 
-.user-data-form .agreement-checkbox input[type="checkbox"]:checked+label:before {
+.user-data-form
+  .agreement-checkbox
+  input[type="checkbox"]:checked
+  + label:before {
   content: "";
   font-family: bootstrap-icons !important;
   background: #000;
@@ -8074,10 +8102,12 @@ iframe {
   bottom: 0;
   left: 0;
   z-index: -1;
-  background: linear-gradient(180deg,
-      #f5f8f7 0%,
-      rgba(240, 243, 242, 0.58) 69.88%,
-      rgba(238, 241, 240, 0.15) 100%);
+  background: linear-gradient(
+    180deg,
+    #f5f8f7 0%,
+    rgba(240, 243, 242, 0.58) 69.88%,
+    rgba(238, 241, 240, 0.15) 100%
+  );
 }
 
 .footer-two .bg-wrapper {
@@ -8734,7 +8764,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes bounce {
-
   0%,
   20%,
   50%,
@@ -8757,7 +8786,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes flash {
-
   0%,
   50%,
   100% {
@@ -8793,7 +8821,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes shake {
-
   0%,
   100% {
     transform: translateX(0);
@@ -10433,14 +10460,26 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   max-height: 40px;
 }
 
-.product-details-one .product-info .customize-order .quantity .button-group li button {
+.product-details-one
+  .product-info
+  .customize-order
+  .quantity
+  .button-group
+  li
+  button {
   font-size: 25px;
   color: #c9c9c9;
   background: rgba(0, 0, 0, 0);
   width: 32px;
 }
 
-.product-details-one .product-info .customize-order .quantity .button-group li .product-value {
+.product-details-one
+  .product-info
+  .customize-order
+  .quantity
+  .button-group
+  li
+  .product-value {
   font-size: 18px;
   font-weight: 500;
   height: 40px;
@@ -10486,7 +10525,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   transform: scale(1);
 }
 
-.product-details-one .product-review-tab .nav-tabs .nav-item:last-child .nav-link {
+.product-details-one
+  .product-review-tab
+  .nav-tabs
+  .nav-item:last-child
+  .nav-link {
   margin-right: 0;
 }
 
@@ -10502,7 +10545,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   margin-bottom: 18px;
 }
 
-.product-details-one .product-review-tab .tab-content .product-feature li:before {
+.product-details-one
+  .product-review-tab
+  .tab-content
+  .product-feature
+  li:before {
   content: "";
   position: absolute;
   font-family: "bootstrap-icons";
@@ -10515,7 +10562,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   padding-bottom: 40px;
 }
 
-.product-details-one .product-review-tab .user-comment-area .single-comment:last-child {
+.product-details-one
+  .product-review-tab
+  .user-comment-area
+  .single-comment:last-child {
   padding-bottom: 0;
 }
 
@@ -10530,22 +10580,41 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   position: relative;
 }
 
-.product-details-one .product-review-tab .user-comment-area .user-comment-data .name {
+.product-details-one
+  .product-review-tab
+  .user-comment-area
+  .user-comment-data
+  .name {
   font-size: 18px;
   margin-bottom: 4px;
 }
 
-.product-details-one .product-review-tab .user-comment-area .user-comment-data .rating li {
+.product-details-one
+  .product-review-tab
+  .user-comment-area
+  .user-comment-data
+  .rating
+  li {
   font-size: 14px;
   margin: 0 3px;
   color: #b3b3b3;
 }
 
-.product-details-one .product-review-tab .user-comment-area .user-comment-data .rating li .bi-star-fill {
+.product-details-one
+  .product-review-tab
+  .user-comment-area
+  .user-comment-data
+  .rating
+  li
+  .bi-star-fill {
   color: #ffcb65;
 }
 
-.product-details-one .product-review-tab .user-comment-area .user-comment-data p {
+.product-details-one
+  .product-review-tab
+  .user-comment-area
+  .user-comment-data
+  p {
   padding-top: 8px;
 }
 
@@ -10823,7 +10892,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   display: none;
 }
 
-.checkout-form .checkbox-list li input[type="checkbox"]:checked+label:before {
+.checkout-form .checkbox-list li input[type="checkbox"]:checked + label:before {
   content: "";
   font-family: bootstrap-icons !important;
   background: #373737;
@@ -10863,7 +10932,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   padding-bottom: 15px;
 }
 
-.checkout-form .order-confirm-sheet .order-review .product-review tbody th span {
+.checkout-form
+  .order-confirm-sheet
+  .order-review
+  .product-review
+  tbody
+  th
+  span {
   font-weight: 500;
   font-size: 18px;
 }
@@ -10917,7 +10992,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   margin: 0 0 13px;
 }
 
-.checkout-form .order-confirm-sheet .order-review .payment-list li label:before {
+.checkout-form
+  .order-confirm-sheet
+  .order-review
+  .payment-list
+  li
+  label:before {
   content: "";
   width: 15px;
   height: 15px;
@@ -10932,7 +11012,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   top: 0;
 }
 
-.checkout-form .order-confirm-sheet .order-review .payment-list li input[type="radio"] {
+.checkout-form
+  .order-confirm-sheet
+  .order-review
+  .payment-list
+  li
+  input[type="radio"] {
   position: absolute;
   opacity: 0;
   z-index: 1;
@@ -10941,7 +11026,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   cursor: pointer;
 }
 
-.checkout-form .order-confirm-sheet .order-review .payment-list li input:checked+label:before {
+.checkout-form
+  .order-confirm-sheet
+  .order-review
+  .payment-list
+  li
+  input:checked
+  + label:before {
   content: "";
   font-family: bootstrap-icons !important;
   background: #373737;
@@ -10986,7 +11077,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   display: none;
 }
 
-.checkout-form .order-confirm-sheet .agreement-checkbox input[type="checkbox"]:checked+label:before {
+.checkout-form
+  .order-confirm-sheet
+  .agreement-checkbox
+  input[type="checkbox"]:checked
+  + label:before {
   content: "";
   font-family: bootstrap-icons !important;
   background: #373737;
@@ -11760,7 +11855,7 @@ body.compensate-for-scrollbar {
   right: 212px;
 }
 
-.fancybox-thumbs>ul {
+.fancybox-thumbs > ul {
   font-size: 0;
   height: 100%;
   list-style: none;
@@ -11774,26 +11869,26 @@ body.compensate-for-scrollbar {
   width: 100%;
 }
 
-.fancybox-thumbs-x>ul {
+.fancybox-thumbs-x > ul {
   overflow: hidden;
 }
 
-.fancybox-thumbs-y>ul::-webkit-scrollbar {
+.fancybox-thumbs-y > ul::-webkit-scrollbar {
   width: 7px;
 }
 
-.fancybox-thumbs-y>ul::-webkit-scrollbar-track {
+.fancybox-thumbs-y > ul::-webkit-scrollbar-track {
   background: #fff;
   border-radius: 10px;
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
-.fancybox-thumbs-y>ul::-webkit-scrollbar-thumb {
+.fancybox-thumbs-y > ul::-webkit-scrollbar-thumb {
   background: #2a2a2a;
   border-radius: 10px;
 }
 
-.fancybox-thumbs>ul>li {
+.fancybox-thumbs > ul > li {
   backface-visibility: hidden;
   cursor: pointer;
   float: left;
@@ -11813,13 +11908,13 @@ body.compensate-for-scrollbar {
   background: rgba(0, 0, 0, 0.1);
 }
 
-.fancybox-thumbs>ul>li {
+.fancybox-thumbs > ul > li {
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.fancybox-thumbs>ul>li:before {
+.fancybox-thumbs > ul > li:before {
   border: 4px solid #4ea7f9;
   bottom: 0;
   content: "";
@@ -11845,7 +11940,7 @@ body.compensate-for-scrollbar {
     right: 110px;
   }
 
-  .fancybox-thumbs>ul>li {
+  .fancybox-thumbs > ul > li {
     max-width: calc(100% - 10px);
   }
 }
@@ -11981,12 +12076,10 @@ body.compensate-for-scrollbar {
   color: black !important;
 }
 
-
 .bx-shadow {
   border-radius: 50px;
   background: #f9f8f8;
-  box-shadow: 17px 17px 34px #bebebe,
-    -17px -17px 34px #ffffff;
+  box-shadow: 17px 17px 34px #bebebe, -17px -17px 34px #ffffff;
 }
 
 .BannerThreeMain {
@@ -12012,4 +12105,74 @@ body.compensate-for-scrollbar {
 
 .ourMisson.zoomIn {
   animation: zoomIn 3s ease-in-out;
+}
+
+.choose {
+  background-color: #b3cfbe;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  padding: 6px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.choose:hover {
+  transform: translateY(-5px);
+  background-color: #ff88007c;
+}
+
+@keyframes slideLeftToRight {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.choose.slide-left-to-right {
+  animation: slideLeftToRight 3.5s ease-in-out;
+}
+
+@keyframes slideRightToLeft {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.choose.slide-right-to-left {
+  animation: slideRightToLeft 3.5s ease-in-out;
+}
+
+.mobile-menu-container {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  max-width: 100%;
+}
+
+.mobile-menu-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.mobile-menu-items li {
+  margin-right: 10px;
+}
+
+@media (min-width: 426px) {
+  .mobileHeader {
+    display: none;
+  }
 }

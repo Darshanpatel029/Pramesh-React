@@ -69,6 +69,11 @@ const RealEstate = () => {
                         other property, or indirectly through a real estate
                         investment trust (REIT).
                       </p>
+                      <div className="d-flex justify-content-end">
+                        <Link to="/contactUs" className="btn-one tran3s">
+                          Get in Touch
+                        </Link>
+                      </div>
                     </div>
                   </div>
                 </div>

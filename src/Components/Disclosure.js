@@ -37,12 +37,14 @@ const Disclosure = () => {
           </div>
         </div>
       </div>
-      <div className="project-details-one position-relative pb-150 lg-pb-80 mt-3">
-        <div className="container">
-          <div>
-            <h3>
-              <b>Disclosure:</b>
-            </h3>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one lg-mt-80">
+          <div className="container">
+            <div>
+              <h2 style={{ fontSize: "42px", fontWeight: "200" }}>
+                Disclosure
+              </h2>
+            </div>
             <p>
               The objective of this publication is to promote the Science & Art
               of TECHNICAL ANALYSIS to forecast price movements. This

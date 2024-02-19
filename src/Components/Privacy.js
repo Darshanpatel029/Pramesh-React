@@ -37,12 +37,14 @@ const Privacy = () => {
           </div>
         </div>
       </div>
-      <div className="project-details-one position-relative pb-150 lg-pb-80 mt-3">
-        <div className="container">
-          <div>
-            <h3>
-              <b>PRIVACY POLICY</b>
-            </h3>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one lg-mt-80">
+          <div className="container">
+            <div>
+              <h2 style={{ fontSize: "42px", fontWeight: "200" }}>
+                PRIVACY POLICY
+              </h2>
+            </div>
             <p>
               Welcome to the website/mobile application of the Pramesh Wealth
               Management Private Limited (referred as PWMPL). We understand that
@@ -53,10 +55,16 @@ const Privacy = () => {
               it from unauthorized use.
             </p>
           </div>
-          <div>
-            <h4>
-              <b>Collection of Information:</b>
-            </h4>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one lg-mt-80">
+          <div className="container">
+            <div>
+              <h2 style={{ fontSize: "42px", fontWeight: "200" }}>
+                Collection of Information
+              </h2>
+            </div>
             <p>
               In the course of using this website/mobile application or availing
               the products and services, PWMPL may become privy to the personal
@@ -86,10 +94,16 @@ const Privacy = () => {
               unauthorized use of it.
             </p>
           </div>
-          <div>
-            <h4>
-              <b>Use and disclosure of Personal & Financial Information:</b>
-            </h4>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one lg-mt-80">
+          <div className="container">
+            <div>
+              <h2 style={{ fontSize: "42px", fontWeight: "200" }}>
+                Use and disclosure of Personal & Financial Information
+              </h2>
+            </div>
             <p>
               We will protect your personal information against unauthorized
               use, dissemination or publication in the same manner in which we
@@ -125,10 +139,16 @@ const Privacy = () => {
               information.
             </p>
           </div>
-          <div>
-            <h4>
-              <b>Amendments:</b>
-            </h4>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one lg-mt-80">
+          <div className="container">
+            <div>
+              <h2 style={{ fontSize: "42px", fontWeight: "200" }}>
+                Amendments
+              </h2>
+            </div>
             <p>
               Due to changes in legislation or enhancements to functionality and
               content on the website/mobile application, we may make changes to
@@ -138,10 +158,16 @@ const Privacy = () => {
               basis.
             </p>
           </div>
-          <div>
-            <h4>
-              <b>Non-Binding:</b>
-            </h4>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one lg-mt-80">
+          <div className="container">
+            <div>
+              <h2 style={{ fontSize: "42px", fontWeight: "200" }}>
+                Non-Binding
+              </h2>
+            </div>
             <p>
               Please note that this privacy policy does not create any
               contractual or other legal rights in or on behalf of any party,

@@ -55,6 +55,11 @@ const MutualFund = () => {
               losses) on the investment are shared collectively by the investors
               in proportion to their contribution to the fund.
             </p>
+            <div className="d-flex justify-content-end">
+              <Link to="/contactUs" className="btn-one tran3s">
+                Get in Touch
+              </Link>
+            </div>
           </div>
         </div>
       </div>
@@ -62,7 +67,9 @@ const MutualFund = () => {
         <div className="text-feature-one lg-mt-80">
           <div className="container">
             <div>
-              <h3>Why invest in mutual funds ?</h3>
+              <h2 style={{ fontSize: "42px", fontWeight: "200" }}>
+                Why invest in mutual funds ?
+              </h2>
               <p>
                 There are many benefits of investing in mutual funds. Here are
                 some important ones - <b> Professional expertise</b>
@@ -87,6 +94,14 @@ const MutualFund = () => {
                 company financials, from an asset className perspective. This
                 requires a significant amount of time and commitment from you.
               </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one lg-mt-80">
+          <div className="container">
+            <div>
               <p>
                 But if you don’t have the skill or the time to delve deep into
                 the market, investing in mutual funds can be an excellent
@@ -96,6 +111,14 @@ const MutualFund = () => {
                 services, you have to pay specific fees for the professional
                 management of your mutual fund investments. Returns
               </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one lg-mt-80">
+          <div className="container">
+            <div>
               <p>
                 One of the biggest mutual fund benefits is that you have the
                 opportunity to earn potentially higher returns than traditional
@@ -109,6 +132,14 @@ const MutualFund = () => {
                 invest in funds that can help you meet your financial goals at
                 the right time in life. Diversification
               </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one lg-mt-80">
+          <div className="container">
+            <div>
               <p>
                 You may have heard the saying: Don’t put all your eggs in one
                 basket. This is a famous mantra to remember when you invest your
@@ -124,6 +155,14 @@ const MutualFund = () => {
                 as many as 30 stocks across sectors in a single fund. This could
                 reduce your risk to a large extent. Tax benefits
               </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one lg-mt-80">
+          <div className="container">
+            <div>
               <p>
                 Mutual fund investors can claim a tax deduction of up to Rs. 1.5
                 lakh by investing in Equity Linked Savings Schemes (ELSS). This

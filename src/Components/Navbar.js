@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="main-page-wrapper">
       <header
         className="theme-main-menu menu-overlay menu-style-one white-vr sticky-menu"
         style={{ position: "fixed", backgroundColor: "#b3cfbed1" }}
