@@ -3,7 +3,6 @@ import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import shape from "../images/shape/shape_26.png";
 import Img1 from "../images/media/img_32.jpg";
-
 import { Link } from "react-router-dom";
 
 const TermAndCondition = () => {
@@ -38,12 +37,14 @@ const TermAndCondition = () => {
           </div>
         </div>
       </div>
-      <div className="project-details-one position-relative pb-150 lg-pb-80 mt-3 ">
-        <div className="container">
-          <div>
-            <h3>
-              <b>Terms & Conditions:</b>
-            </h3>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one lg-mt-80">
+          <div className="container">
+            <div>
+              <h2 style={{ fontSize: "42px", fontWeight: "200" }}>
+                Terms & Conditions
+              </h2>
+            </div>
             <p>
               Welcome to our website. If you continue to browse and use this
               website, you are agreeing to comply with and be bound by the
@@ -54,10 +55,16 @@ const TermAndCondition = () => {
               user or viewer of our website.
             </p>
           </div>
-          <div>
-            <h3>
-              <b>The use of this website is subject to the following terms:</b>
-            </h3>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one lg-mt-80">
+          <div className="container">
+            <div>
+              <h2 style={{ fontSize: "42px", fontWeight: "200" }}>
+                The use of this website is subject to the following terms
+              </h2>
+            </div>
             <p>
               You well understand and accept that “Pramesh Wealth Pvt. Ltd”.
               maintains the website – “Pramesh Wealth Pvt. Ltd”. or related
@@ -70,6 +77,12 @@ const TermAndCondition = () => {
               changes therein to the terms from time-to-time as communicated and
               made available on the website.
             </p>
+          </div>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one lg-mt-80">
+          <div className="container">
             <p>
               You are well aware and accept that all information, content,
               materials, products (including, but not limited to text, content,
@@ -78,6 +91,12 @@ const TermAndCondition = () => {
               under the applicable copyright laws and the general intellectual
               property law.
             </p>
+          </div>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one lg-mt-80">
+          <div className="container">
             <p>
               You understand and accept that all information submitted by you on
               the site shall be deemed the property of “Pramesh Wealth Pvt.
@@ -94,6 +113,12 @@ const TermAndCondition = () => {
               materials, services available on or through the site, except that
               which you may download for your own personal, non-commercial use.
             </p>
+          </div>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one lg-mt-80">
+          <div className="container">
             <p>
               You agree that you shall not use “Pramesh Wealth Pvt. Ltd.’s
               website for any purpose that is unlawful, or prohibited by these
@@ -101,6 +126,12 @@ const TermAndCondition = () => {
               could damage, disable or impair the website, or interfere with any
               other party’s use, or enjoyment of the website.
             </p>
+          </div>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one lg-mt-80">
+          <div className="container">
             <p>
               You acknowledge that the software and hardware underlying the
               site, as well as other Internet-related software required for
@@ -112,6 +143,12 @@ const TermAndCondition = () => {
               reverse engineer the software/ hardware underlying the website, or
               create any derivative product based on the software/hardware.
             </p>
+          </div>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one lg-mt-80">
+          <div className="container">
             <p>
               You understand and accept that not all products and services
               offered on this website are available in all geographic areas, and
@@ -120,6 +157,12 @@ const TermAndCondition = () => {
               Ltd”. reserves the right to determine the availability and
               eligibility for any product or service.
             </p>
+          </div>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one lg-mt-80">
+          <div className="container">
             <p>
               You fully understand and accept that “Pramesh Wealth Pvt. Ltd”. is
               not responsible for the availability of content, or other services
@@ -135,6 +178,12 @@ const TermAndCondition = () => {
               services or products that are available or advertised or sold
               through these third-party websites.
             </p>
+          </div>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one lg-mt-80">
+          <div className="container">
             <p>
               “Pramesh Wealth Pvt. Ltd”. shall not be liable if any transaction
               does not fructify, or may not be completed, or for any failure on
@@ -157,6 +206,12 @@ const TermAndCondition = () => {
               or technical errors/failures or power shutdown, faults or failures
               in telecommunication, etc.
             </p>
+          </div>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one lg-mt-80">
+          <div className="container">
             <p>
               You understand and accept that “Pramesh Wealth Pvt. Ltd”. has the
               absolute discretion to amend or supplement any of the terms at any
@@ -166,6 +221,12 @@ const TermAndCondition = () => {
               using “Pramesh Wealth Pvt. Ltd.’s” services, you shall be deemed
               to have accepted the changed terms and conditions.
             </p>
+          </div>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one lg-mt-80">
+          <div className="container">
             <p>
               You accept that the Courts in Vadodara alone shall have exclusive
               jurisdiction as regards to any claims or matters arising out of

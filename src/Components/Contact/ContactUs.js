@@ -91,7 +91,7 @@ const ContactUs = () => {
                 </div>
               </div>
             </div>
-            <div className="bg-wrapper light-bg mt-80 lg-mt-40">
+            <div className="bg-wrapper light-bg mt-80 lg-mt-40 mb-4">
               <div className="row">
                 <div className="col-lg-5">
                   <div className="d-flex flex-column flex-lg-column-reverse">
@@ -104,8 +104,24 @@ const ContactUs = () => {
                         />
                       </div>
                     </div>
-                    <div className="title-one text-center text-lg-start md-mt-20 mb-70 md-mb-30">
-                      <h2>Have inquiries? Reach out via message</h2>
+                    <div className="title-one text-center text-lg-start md-mt-20 md-mb-30">
+                      <h2 style={{ fontSize: "42px", fontWeight: "200" }}>
+                        Have inquiries? Reach out via message
+                      </h2>
+                      <div className="map-banner lg-mt-80">
+                        <div className="gmap_canvas h-100 w-100">
+                          <iframe
+                            className="gmap_iframe h-100 w-100"
+                            src={
+                              "https://maps.google.com/maps?q=pramesh%20wealth&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                            }
+                            title="Google Maps"
+                            frameBorder="0"
+                            scrolling="no"
+                            allowFullScreen
+                          ></iframe>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -179,20 +195,86 @@ const ContactUs = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div className="map-banner mt-120 lg-mt-80">
-          <div className="gmap_canvas h-100 w-100">
-            <iframe
-              className="gmap_iframe h-100 w-100"
-              src={
-                "https://maps.google.com/maps?q=pramesh%20wealth&t=&z=16&ie=UTF8&iwloc=&output=embed"
-              }
-              title="Google Maps"
-              frameBorder="0"
-              scrolling="no"
-              allowFullScreen
-            ></iframe>
+            <div class="upper-wrapper mb-110 lg-mb-80 mt-4">
+              <div class="text-center m-4 p-2">
+                <h2 style={{ fontSize: "42px", fontWeight: "200" }}>
+                  Our Branches
+                </h2>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-4 wow fadeInUp">
+                    <div class="card-style-one d-flex w-100 mb-35">
+                      <div class="icon tran3s rounded-circle d-flex align-items-center justify-content-center">
+                        <img src={BannerImg1} alt="" class="lazy-img" />
+                      </div>
+                      <div class="text ps-4">
+                        <h4 class="fw-bold">AKOTA</h4>
+                        <p class="pe-xl-4">
+                          F-13, Om park Society Opp. Kalash Circle, Near White
+                          Potato restaurant, Akota, Vadodara -390012
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="card-style-one d-flex w-100 mb-35">
+                      <div class="icon tran3s rounded-circle d-flex align-items-center justify-content-center">
+                        <img src={BannerImg1} alt="" class="lazy-img" />
+                      </div>
+                      <div class="text ps-4">
+                        <h4 class="fw-bold">MANJALPUR</h4>
+                        <p class="pe-xl-4">
+                          112-Ronak Plaza, Nr. Tulshidham Char Rasta, Manjalpur
+                          , Vadodara-390011
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="card-style-one d-flex w-100 mb-35">
+                      <div class="icon tran3s rounded-circle d-flex align-items-center justify-content-center">
+                        <img src={BannerImg1} alt="" class="lazy-img" />
+                      </div>
+                      <div class="text ps-4">
+                        <h4 class="fw-bold">GANGOTRI</h4>
+                        <p class="pe-xl-4">
+                          5, swastik apartment, Near Gangotri Apartment, R V
+                          desai road, Vadodara – 390001
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="card-style-one d-flex w-100 mb-35">
+                      <div class="icon tran3s rounded-circle d-flex align-items-center justify-content-center">
+                        <img src={BannerImg1} alt="" class="lazy-img" />
+                      </div>
+                      <div class="text ps-4">
+                        <h4 class="fw-bold">WAGHODIA ROAD</h4>
+                        <p class="pe-xl-4">
+                          FF-D-6 Gajanan park Co-op Hsg Soc., Opp Indrapuri
+                          Atithi Gruh, Waghodia road, Vadodara -390019
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="card-style-one d-flex w-100 mb-35">
+                      <div class="icon tran3s rounded-circle d-flex align-items-center justify-content-center">
+                        <img src={BannerImg1} alt="" class="lazy-img" />
+                      </div>
+                      <div class="text ps-4">
+                        <h4 class="fw-bold">BHARUCH</h4>
+                        <p class="pe-xl-4">
+                          130,nexus business hub, zadeshwar road,bharuch-392001
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

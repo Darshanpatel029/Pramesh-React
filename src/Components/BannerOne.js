@@ -15,40 +15,29 @@ const BannerOne = () => {
             ></div>
           </div>
         </div>
-        <div className="container position-relative">
-          <div className="row">
-            <div
-              className="col-xl-6 col-lg-7 ms-auto"
-              style={{ marginLeft: "-224px" }}
-            >
-              <h1
-                className="hero-heading d-inline-block position-relative wow fadeInUp"
-                style={{ fontSize: "42px" }}
-              >
-                A Complete Investment <br />
-                Solution For <br /> Wealth Creation.
-              </h1>
-              <p
-                className="text-xl text-white pt-35 pb-25 wow fadeInUp"
-                data-wow-delay="0.1s"
-              >
-                Empowering businesses with innovative strategies and actionable
-                recommendations
-              </p>
-              <Link
-                to="/contactUs"
-                className="btn-two icon-link wow fadeInUp"
-                data-wow-delay="0.2s"
-              >
-                <span>Let’s Talk</span>
-                <img
-                  src={BannerImg1}
-                  alt="img"
-                  className="lazy-img icon ms-2"
-                />
-              </Link>
-            </div>
-          </div>
+        <h1
+          className="hero-heading d-inline-block position-relative wow fadeInUp"
+          style={{ fontSize: "42px" }}
+        >
+          A Complete Investment <br />
+          Solution For <br /> Wealth Creation.
+        </h1>
+        <p
+          className="text-xl text-white wow fadeInUp"
+          style={{ padding: "25px" }}
+        >
+          Empowering businesses with innovative <br /> strategies and actionable
+          recommendations
+        </p>
+        <div style={{ padding: "25px" }}>
+          <Link
+            to="/contactUs"
+            className="btn-two icon-link wow fadeInUp"
+            data-wow-delay="0.2s"
+          >
+            <span>Let’s Talk</span>
+            <img src={BannerImg1} alt="img" className="lazy-img icon ms-2" />
+          </Link>
         </div>
       </div>
     </div>

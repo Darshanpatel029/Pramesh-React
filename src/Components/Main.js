@@ -15,7 +15,7 @@ function Main() {
     <div className="main-page-wrapper">
       <Navbar />
       <BannerOne />
-      <BannerThree/>
+      <BannerThree />
       <Services />
       <MissionVission />
       <WhyChoose />

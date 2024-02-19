@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Advisor = () => {
   return (
     <div className="main-page-wrapper">
-      <div className="team-section-one mt-200 lg-mt-80 pt-300">
+      <div className="team-section-one mt-100 lg-mt-80">
         <div className="container">
           <div className="position-relative">
             <div className="title-one mb-40 lg-mb-20 wow fadeInUp">
@@ -13,7 +13,7 @@ const Advisor = () => {
                 Our Advisor
               </h2>
             </div>
-            <div className="row justify-content-center">
+            <div className="row justify-content-around">
               <div className="col-lg-2 col-sm-6 wow fadeInUp">
                 <div className="card-style-four mt-35">
                   <div className="media d-flex align-items-center justify-content-center position-relative overflow-hidden ">

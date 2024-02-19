@@ -17,7 +17,7 @@ const EquityInvestment = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <h1 className="hero-heading d-inline-block position-relative me-xxl-4 me-lg-5">
-              Equity Investment
+                Equity Investment
                 <img src={shape} alt="img" />
               </h1>
             </div>
@@ -45,13 +45,20 @@ const EquityInvestment = () => {
                 src={"https://www.prameshwealth.com/log1/jugnu4.png"}
                 alt="img"
               />
-              <h2 style={{ fontSize: "42px", fontWeight: "200" }}>Equity Investments</h2>
+              <h2 style={{ fontSize: "42px", fontWeight: "200" }}>
+                Equity Investments
+              </h2>
             </div>
             <p>
               An equity investment is money that is invested in a company by
               purchasing shares of that company in the stock market. These
               shares are typically traded on a stock exchange.
             </p>
+            <div className="d-flex justify-content-end">
+              <Link to="/contactUs" className="btn-one tran3s">
+                Get in Touch
+              </Link>
+            </div>
           </div>
         </div>
       </div>
@@ -67,6 +74,14 @@ const EquityInvestment = () => {
                 private equity investments, retained earnings, and preferred
                 shares.
               </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one  lg-mt-80">
+          <div className="container">
+            <div>
               <p>
                 In reality, the returns and risks are directly proportional to
                 each other, which means the higher the risk involved, the higher
@@ -78,6 +93,14 @@ const EquityInvestment = () => {
                 Fund (PPF), Bank RDs, etc. Non-financial assets consist of gold
                 investment, real estate, treasury bills, etc.
               </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one  lg-mt-80">
+          <div className="container">
+            <div>
               <p>
                 While choosing the investment plan, it is inevitable to match
                 the risk profile of the investor with the related risk of the
@@ -87,6 +110,14 @@ const EquityInvestment = () => {
                 other asset classes. On the other hand, some of the investment
                 options include lower risk, but the returns are also low.
               </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one  lg-mt-80">
+          <div className="container">
+            <div>
               <p>
                 By investing in the best investment options in India, you can
                 not only achieve your financial goals but can also create a
@@ -97,6 +128,14 @@ const EquityInvestment = () => {
                 investment options in India, that can help the investors to
                 achieve their financial goals.
               </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one  lg-mt-80">
+          <div className="container">
+            <div>
               <p>
                 Equity funds are practical investments for most people. The
                 attributes that make equity funds most suitable for small
@@ -104,26 +143,38 @@ const EquityInvestment = () => {
                 fund's portfolio diversification and the relatively small amount
                 of capital required to acquire shares of an equity fund.
               </p>
-              <p>
-                Examples of equity investment include equity mutual funds,
-                shares, private equity investments, retained earnings, and
-                preferred shares. An equity investment offers the investor
-                multiple benefits like risk spread, easy transfer,
-                profitability, and easy monitoring.
-              </p>
-              <p>
-                List of Top 10 Equity Mutual Funds to Invest in 2022
-                <br />
-                - Axis Bluechip Fund. <br />
-                - Nippon India Growth Fund.
-                <br />
-                - Axis Midcap Fund. <br />
-                - UTI Nifty Index Fund. <br />
-                - HDFC Index Nifty 50 fund. <br />
-                - Parag Parikh Flexi Cap fund. <br />
-                - Canara Robeco Equity Taxsaver fund. <br />
-              </p>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one  lg-mt-80">
+          <div className="container">
+            <p>
+              Examples of equity investment include equity mutual funds, shares,
+              private equity investments, retained earnings, and preferred
+              shares. An equity investment offers the investor multiple benefits
+              like risk spread, easy transfer, profitability, and easy
+              monitoring.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="main-page-wrapper container card rounded shadow-sm mt-4 p-4 mb-4 bx-shadow  rounded">
+        <div className="text-feature-one  lg-mt-80">
+          <div className="container">
+            <p>
+              List of Top 10 Equity Mutual Funds to Invest in 2022
+              <br />
+              - Axis Bluechip Fund. <br />
+              - Nippon India Growth Fund.
+              <br />
+              - Axis Midcap Fund. <br />
+              - UTI Nifty Index Fund. <br />
+              - HDFC Index Nifty 50 fund. <br />
+              - Parag Parikh Flexi Cap fund. <br />
+              - Canara Robeco Equity Taxsaver fund. <br />
+            </p>
           </div>
         </div>
       </div>
