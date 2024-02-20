@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
-import shape from "../../images/shape/shape_26.png";
+import shape from "../../images/shape/shape_29.png";
 import Img1 from "../../images/media/mutualFund.jpg";
 import { Link } from "react-router-dom";
 

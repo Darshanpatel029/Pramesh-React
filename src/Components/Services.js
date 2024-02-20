@@ -1,10 +1,10 @@
 import React from "react";
 import "../css/style.css";
-import img1 from "../images/bannerImg/icon1.jpg";
-import img2 from "../images/bannerImg/icon2.jpg";
-import img3 from "../images/bannerImg/icon3.jpg";
-import img4 from "../images/bannerImg/icon4.jpg";
-import img5 from "../images/bannerImg/icon5.jpg";
+import img1 from "../images/Banner/icon1.jpg";
+import img2 from "../images/Banner/icon2.jpg";
+import img3 from "../images/Banner/icon3.png";
+import img4 from "../images/Banner/icon4.jpg";
+import img5 from "../images/Banner/icon5.jpg";
 import { Link } from "react-router-dom";
 
 const Services = () => {
