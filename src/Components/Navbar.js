@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className="main-page-wrapper">
       <header
         className="theme-main-menu menu-overlay menu-style-one white-vr sticky-menu"
-        style={{ position: "fixed", backgroundColor: "#b3cfbed1" }}
+        style={{ position: "fixed", backgroundColor: "#2e3631d1" }}
       >
         <div className="inner-content position-relative">
           <div className="top-header">
@@ -47,7 +47,7 @@ const Navbar = () => {
                       <Link
                         to="/"
                         className="nav-link dropdown-toggle fw-bold"
-                        style={{ color: "black" }}
+                        style={{ color: "#0dcaf0" }}
                       >
                         Home
                       </Link>
@@ -59,7 +59,7 @@ const Navbar = () => {
                         data-bs-toggle="dropdown"
                         data-bs-auto-close="outside"
                         aria-expanded="false"
-                        style={{ color: "black" }}
+                        style={{ color: "#0dcaf0" }}
                       >
                         About Us
                       </Link>
@@ -88,7 +88,7 @@ const Navbar = () => {
                         data-bs-toggle="dropdown"
                         data-bs-auto-close="outside"
                         aria-expanded="false"
-                        style={{ color: "black" }}
+                        style={{ color: "#0dcaf0" }}
                       >
                         Services
                       </Link>
@@ -128,7 +128,7 @@ const Navbar = () => {
                         to="/Team"
                         className="nav-link dropdown-toggle fw-bold"
                         role="button"
-                        style={{ color: "black" }}
+                        style={{ color: "#0dcaf0" }}
                       >
                         Our Team
                       </Link>
@@ -138,7 +138,7 @@ const Navbar = () => {
                         to="/Downloads"
                         className="nav-link dropdown-toggle fw-bold"
                         role="button"
-                        style={{ color: "black" }}
+                        style={{ color: "#0dcaf0" }}
                       >
                         Downloads
                       </Link>
@@ -151,7 +151,7 @@ const Navbar = () => {
                         data-bs-toggle="dropdown"
                         data-bs-auto-close="outside"
                         aria-expanded="false"
-                        style={{ color: "black" }}
+                        style={{ color: "#0dcaf0" }}
                       >
                         Log In
                       </Link>

@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 import BannerImg from "../../images/lazy.png";
-import shape from "../../images/shape/shape_31.png";
+import shape from "../../images/shape/shape_26.png";
 import Img1 from "../../images/media/img_32.jpg";
 import Img2 from "../../images/ourStory/ourStory2.jpeg";
 import Img3 from "../../images/ourStory/ourStory1.jpeg";

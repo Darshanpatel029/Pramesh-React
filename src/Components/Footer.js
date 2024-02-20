@@ -28,14 +28,16 @@ const Footer = () => {
                     <Link
                       to="https://www.facebook.com/Prameshwealth"
                       className="bi bi-facebook"
+                      target="_blank"
                     >
                       <i></i>
                     </Link>
                   </li>
                   <li>
                     <Link
-                      to=" https://twitter.com/pramesh_wealth"
+                      to="https://twitter.com/pramesh_wealth"
                       className="bi bi-twitter"
+                      target="_blank"
                     >
                       <i></i>
                     </Link>
@@ -44,6 +46,7 @@ const Footer = () => {
                     <Link
                       to="https://www.instagram.com/pramesh_wealth/"
                       className="bi bi-instagram"
+                      target="_blank"
                     >
                       <i></i>
                     </Link>
@@ -54,23 +57,18 @@ const Footer = () => {
                 <h5 className="footer-title">Links</h5>
                 <ul className="footer-nav-link style-none">
                   <li>
-                    {" "}
                     <Link to="/">Home</Link>
                   </li>
                   <li>
-                    {" "}
                     <Link to="/OurStory">About us</Link>
                   </li>
                   <li>
-                    {" "}
                     <Link to="/Team">Our Team</Link>
                   </li>
                   <li>
-                    {" "}
                     <Link to="/Downloads">Downloads</Link>
                   </li>
                   <li>
-                    {" "}
                     <Link to="/contactUs">Contacts</Link>
                   </li>
                 </ul>
@@ -79,23 +77,18 @@ const Footer = () => {
                 <h5 className="footer-title">Services</h5>
                 <ul className="footer-nav-link style-none">
                   <li>
-                    {" "}
                     <Link to="/MutualFund">Mutual Funds</Link>
                   </li>
                   <li>
-                    {" "}
                     <Link to="/EquityInvestment">Equity Investments</Link>
                   </li>
                   <li>
-                    {" "}
                     <Link to="/Insurance">Insurance</Link>
                   </li>
                   <li>
-                    {" "}
                     <Link to="/LoanServices">Loan Services</Link>
                   </li>
                   <li>
-                    {" "}
                     <Link to="/RealEstate">Real Estate</Link>
                   </li>
                 </ul>
@@ -104,13 +97,13 @@ const Footer = () => {
                 <h5 className="footer-title">Contact Us</h5>
                 <ul className="footer-nav-link style-none">
                   <li>
-                    <Link to="/">
+                    <Link to="/contactUs">
                       “Pramesh House” 8, Vedant Bunglow, Main Kalali road,
                       Kalali, Vadodara- 390012
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">+91 89800 27229</Link>
+                    <Link to="/contactUs">+91 89800 27229</Link>
                   </li>
                 </ul>
               </div>
@@ -138,23 +131,19 @@ const Footer = () => {
                 <Link to="/" className="d-none d-lg-inline-block mb-25 navImg">
                   <img src={FtrImg} alt="img" />
                 </Link>
-
                 <div className="d-xl-flex align-items-center">
                   <ul className="style-none bottom-nav d-flex flex-wrap justify-content-center justify-content-lg-start order-lg-last">
                     <li>
-                      {" "}
                       <Link to="/Privacy">Privacy Policy</Link>
                     </li>
                     <li>
-                      {" "}
                       <Link to="/TermAndCondition">Terms & Conditions</Link>
                     </li>
                     <li>
-                      {" "}
                       <Link to="/Disclosure">Disclosure</Link>
                     </li>
                   </ul>
-                  <div className="copyright me-xl-4 lg-mt-10 order-lg-first">
+                  <div className="copyright me-xl-4 lg-mt-10 order-lg-first mb-4">
                     © 2022 Pramesh Wealth Pvt Ltd. All Rights Reserved.
                   </div>
                 </div>

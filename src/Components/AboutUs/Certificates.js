@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
-import shape from "../../images/shape/shape_02.png";
+import shape from "../../images/shape/shape_26.png";
 import Img1 from "../../images/media/certificates.jpg";
 import { Link } from "react-router-dom";
 

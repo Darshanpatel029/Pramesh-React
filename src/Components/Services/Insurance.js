@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
-import shape from "../../images/shape/shape_28.png";
+import shape from "../../images/shape/shape_26.png";
 import Img1 from "../../images/media/insurance.jpg";
 import { Link } from "react-router-dom";
 
@@ -17,7 +17,7 @@ const Insurance = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <h1 className="hero-heading d-inline-block position-relative me-xxl-4 me-lg-5">
-                Insurance
+                Services
                 <img src={shape} alt="img" />
               </h1>
             </div>

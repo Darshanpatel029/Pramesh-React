@@ -30,7 +30,7 @@ const Advisor = () => {
                 <div className="card-style-four mt-35">
                   <div
                     className="media d-flex align-items-center justify-content-center position-relative overflow-hidden "
-                    style={{ borderRadius: "100px" }}
+                    style={{ borderRadius: "200px" }}
                   >
                     <img
                       src={profileImg}
@@ -41,7 +41,6 @@ const Advisor = () => {
                       to="/Team"
                       className="round-btn rounded-circle d-flex align-items-center justify-content-center tran3s"
                     >
-                      {" "}
                       <i className="bi bi-arrow-up-right"></i>
                     </Link>
                   </div>
@@ -56,7 +55,7 @@ const Advisor = () => {
                 <div className="card-style-four mt-35">
                   <div
                     className="media d-flex align-items-center justify-content-center position-relative overflow-hidden"
-                    style={{ borderRadius: "100px" }}
+                    style={{ borderRadius: "200px" }}
                   >
                     <img
                       src={profileImg}
@@ -67,7 +66,6 @@ const Advisor = () => {
                       to="/Team"
                       className="round-btn rounded-circle d-flex align-items-center justify-content-center tran3s"
                     >
-                      {" "}
                       <i className="bi bi-arrow-up-right"></i>
                     </Link>
                   </div>
@@ -82,7 +80,7 @@ const Advisor = () => {
                 <div className="card-style-four mt-35">
                   <div
                     className="media d-flex align-items-center justify-content-center position-relative overflow-hidden"
-                    style={{ borderRadius: "100px" }}
+                    style={{ borderRadius: "200px" }}
                   >
                     <img
                       src={profileImg}
@@ -93,7 +91,6 @@ const Advisor = () => {
                       to="/Team"
                       className="round-btn rounded-circle d-flex align-items-center justify-content-center tran3s"
                     >
-                      {" "}
                       <i className="bi bi-arrow-up-right"></i>
                     </Link>
                   </div>
@@ -108,7 +105,7 @@ const Advisor = () => {
                 <div className="card-style-four mt-35">
                   <div
                     className="media d-flex align-items-center justify-content-center position-relative overflow-hidden"
-                    style={{ borderRadius: "100px" }}
+                    style={{ borderRadius: "200px" }}
                   >
                     <img
                       src={profileImg}
@@ -120,7 +117,6 @@ const Advisor = () => {
                       to="/Team"
                       className="round-btn rounded-circle d-flex align-items-center justify-content-center tran3s"
                     >
-                      {" "}
                       <i className="bi bi-arrow-up-right"></i>
                     </Link>
                   </div>
@@ -129,9 +125,8 @@ const Advisor = () => {
                 </div>
               </div>
             </div>
-            <div className="section-btn sm-mt-40">
+            <div className="section-btn sm-mt-20">
               <Link to="/Team" className="btn-five icon-link">
-                {" "}
                 <span className="text">See all Experts</span>
                 <div className="icon tran3s rounded-circle d-flex align-items-center justify-content-center">
                   <i className="bi bi-arrow-up-right"></i>

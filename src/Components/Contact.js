@@ -6,7 +6,11 @@ const Contact = () => {
     <div className="main-page-wrapper">
       <div
         className="fancy-banner-two mt-150 lg-mt-80 mb-150 lg-mb-60"
-        style={{ backgroundColor: "#ebf3ee", paddingBottom: "35px",paddingTop:"45px" }}
+        style={{
+          backgroundColor: "#ebf3ee",
+          paddingBottom: "35px",
+          paddingTop: "45px",
+        }}
       >
         <div className="container">
           <div className="text-center wow fadeInUp">
