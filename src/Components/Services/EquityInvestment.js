@@ -17,7 +17,7 @@ const EquityInvestment = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <h1 className="hero-heading d-inline-block position-relative me-xxl-4 me-lg-5">
-                Equity Investment
+                Services
                 <img src={shape} alt="img" />
               </h1>
             </div>

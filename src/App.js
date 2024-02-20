@@ -16,29 +16,39 @@ import Privacy from "./Components/Privacy";
 import TermAndCondition from "./Components/TermAndCondition";
 import Disclosure from "./Components/Disclosure";
 import MobileMenu from "./Components/MobileMenu";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/OurStory" element={<OurStory />} />
-        <Route path="/Vision" element={<Mission />} />
-        <Route path="/Certificates" element={<Certificates />} />
-        <Route path="/MutualFund" element={<MutualFund />} />
-        <Route path="/Insurance" element={<Insurance />} />
-        <Route path="/RealEstate" element={<RealEstate />} />
-        <Route path="/EquityInvestment" element={<EquityInvestment />} />
-        <Route path="/LoanServices" element={<LoanServices />} />
-        <Route path="/Team" element={<Team />} />
-        <Route path="/Downloads" element={<Downloads />} />
-        <Route path="/contactUs" element={<ContactUs />} />
-        <Route path="/Privacy" element={<Privacy />} />
-        <Route path="/TermAndCondition" element={<TermAndCondition />} />
-        <Route path="/Disclosure" element={<Disclosure />} />
-      </Routes>
-      <MobileMenu />
-    </Router>
+    <>
+      <ToastContainer
+        limit={1}
+        theme="colored"
+        position="top-center"
+        autoClose={3000}
+      />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/OurStory" element={<OurStory />} />
+          <Route path="/Vision" element={<Mission />} />
+          <Route path="/Certificates" element={<Certificates />} />
+          <Route path="/MutualFund" element={<MutualFund />} />
+          <Route path="/Insurance" element={<Insurance />} />
+          <Route path="/RealEstate" element={<RealEstate />} />
+          <Route path="/EquityInvestment" element={<EquityInvestment />} />
+          <Route path="/LoanServices" element={<LoanServices />} />
+          <Route path="/Team" element={<Team />} />
+          <Route path="/Downloads" element={<Downloads />} />
+          <Route path="/contactUs" element={<ContactUs />} />
+          <Route path="/Privacy" element={<Privacy />} />
+          <Route path="/TermAndCondition" element={<TermAndCondition />} />
+          <Route path="/Disclosure" element={<Disclosure />} />
+        </Routes>
+        <MobileMenu />
+      </Router>
+    </>
   );
 }
 

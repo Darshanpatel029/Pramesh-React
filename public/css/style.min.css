@@ -3190,13 +3190,12 @@ iframe {
 }
 
 .hero-banner-one {
-  /* background: #29594b; */
-  /* z-index: 9; */
+  background: #29594b;
+  z-index: 9;
 }
 
 .hero-banner-one::before {
   content: "";
-  position: absolute;
   width: 100%;
   height: 100%;
   left: 0px;
@@ -3218,10 +3217,11 @@ iframe {
 }
 
 .hero-banner-one .hero-slider-one .hero-img {
+  position: absolute;
   left: 0;
   right: 0;
   width: 100%;
-  height: 91%;
+  height: 100%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3859,7 +3859,6 @@ iframe {
 }
 
 .inner-banner-one .hero-heading {
-  /* font-weight: 700; */
   font-size: 85px;
   line-height: 1.023em;
   z-index: 1;
@@ -12082,7 +12081,7 @@ body.compensate-for-scrollbar {
 }
 
 .BannerThreeMain {
-  margin-top: -130px;
+  margin-top: -60px;
   position: absolute;
   z-index: 10;
 }
@@ -12157,14 +12156,17 @@ body.compensate-for-scrollbar {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    padding: 5px;
   }
 }
 
 .mobileHeader {
   position: fixed;
   bottom: 0px;
-  background-color: white;
+  background-color: #2e3631d1;
   width: 100%;
+  font-size: 17px;
+  color: #0dcaf0;
 }
 
 .mobile-menu-items {
@@ -12197,15 +12199,21 @@ body.compensate-for-scrollbar {
   }
 }
 
+@media (max-width:1024px) {
+  .service {
+    margin-top: 200px !important;
+  }
+}
+
 @media (max-width:768px) {
   .service {
-    margin-top: 170px !important;
+    margin-top: 270px !important;
   }
 }
 
 @media (max-width:425px) {
   .service {
-    margin-top: 280px !important;
+    margin-top: 350px !important;
   }
 }
 

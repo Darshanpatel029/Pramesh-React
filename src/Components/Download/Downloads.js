@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 import shape from "../../images/shape/shape_28.png";
-import Img1 from "../../images/media/img_17.jpg";
+import Img1 from "../../images/media/img_26.jpg";
 import { Link } from "react-router-dom";
 
 const Downloads = () => {
@@ -10,12 +10,12 @@ const Downloads = () => {
     <div className="main-page-wrapper">
       <Navbar />
       <div
-        className="inner-banner-one pt-225 lg-pt-200 md-pt-150 pb-70 md-pb-70 position-relative"
+        className="inner-banner-one pt-225 lg-pt-200 md-pt-150 pb-100 lg-pb-70 md-pb-30 position-relative"
         style={{ backgroundImage: `url(${Img1})` }}
       >
         <div className="container position-relative">
           <div className="row align-items-center">
-            <div className="col-lg-6">
+            <div className="col-lg-8 m-auto">
               <h1 className="hero-heading d-inline-block position-relative me-xxl-4 me-lg-5">
                 Downloads
                 <img src={shape} alt="img" />

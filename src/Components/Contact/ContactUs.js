@@ -1,12 +1,36 @@
-import React from "react";
+import React, { useRef } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 import shape from "../../images/shape/shape_26.png";
 import BannerImg1 from "../../images/lazy.png";
 import Img1 from "../../images/media/contactUs.jpg";
 import { Link } from "react-router-dom";
+import emailjs from "emailjs-com";
+import { toast } from "react-toastify";
 
 const ContactUs = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      "service_tfvd9vh",
+      "template_i9sw0pd",
+      form.current,
+      "WrIPnVKmdHgT5K9Jc"
+    ).then(
+      (response) => {
+        console.log('SUCCESS!', response.status, response.text);
+        form.current.reset();
+        toast.success("Email sent successfully");
+      },
+      (error) => {
+        toast.error("Something went wrong. Please try again later");
+        console.log('FAILED...', error);
+      }
+    );
+  };
+
   return (
     <div className="main-page-wrapper">
       <Navbar />
@@ -128,9 +152,10 @@ const ContactUs = () => {
                 <div className="col-lg-7">
                   <div className="form-style-one ps-xl-5">
                     <form
-                      action="https://html.creativegigstf.com/babun/babun/inc/contact.php"
                       id="contact-form"
                       data-toggle="validator"
+                      ref={form}
+                      onSubmit={sendEmail}
                     >
                       <div className="messages"></div>
                       <div className="row controls">
