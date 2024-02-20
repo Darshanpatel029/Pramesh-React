@@ -5,18 +5,33 @@ import { Link } from "react-router-dom";
 const Advisor = () => {
   return (
     <div className="main-page-wrapper">
-      <div className="team-section-one mt-100 lg-mt-80">
+      <div
+        className="team-section-one mt-100 lg-mt-80"
+        style={{
+          backgroundColor: "#ebf3ee",
+          paddingBottom: "35px",
+          paddingTop: "45px",
+        }}
+      >
         <div className="container">
           <div className="position-relative">
             <div className="title-one mb-40 lg-mb-20 wow fadeInUp">
-              <h2 style={{ fontSize: "42px", fontWeight: "200" }}>
+              <h2
+                style={{
+                  fontSize: "42px",
+                  fontWeight: "200",
+                }}
+              >
                 Our Advisor
               </h2>
             </div>
             <div className="row justify-content-around">
               <div className="col-lg-2 col-sm-6 wow fadeInUp">
                 <div className="card-style-four mt-35">
-                  <div className="media d-flex align-items-center justify-content-center position-relative overflow-hidden ">
+                  <div
+                    className="media d-flex align-items-center justify-content-center position-relative overflow-hidden "
+                    style={{ borderRadius: "100px" }}
+                  >
                     <img
                       src={profileImg}
                       alt="img"
@@ -39,7 +54,10 @@ const Advisor = () => {
                 data-wow-delay="0.1s"
               >
                 <div className="card-style-four mt-35">
-                  <div className="media d-flex align-items-center justify-content-center position-relative overflow-hidden">
+                  <div
+                    className="media d-flex align-items-center justify-content-center position-relative overflow-hidden"
+                    style={{ borderRadius: "100px" }}
+                  >
                     <img
                       src={profileImg}
                       alt="img"
@@ -62,7 +80,10 @@ const Advisor = () => {
                 data-wow-delay="0.2s"
               >
                 <div className="card-style-four mt-35">
-                  <div className="media d-flex align-items-center justify-content-center position-relative overflow-hidden">
+                  <div
+                    className="media d-flex align-items-center justify-content-center position-relative overflow-hidden"
+                    style={{ borderRadius: "100px" }}
+                  >
                     <img
                       src={profileImg}
                       alt="img"
@@ -85,7 +106,10 @@ const Advisor = () => {
                 data-wow-delay="0.3s"
               >
                 <div className="card-style-four mt-35">
-                  <div className="media d-flex align-items-center justify-content-center position-relative overflow-hidden">
+                  <div
+                    className="media d-flex align-items-center justify-content-center position-relative overflow-hidden"
+                    style={{ borderRadius: "100px" }}
+                  >
                     <img
                       src={profileImg}
                       data-src="images/media/img_12.jpg"

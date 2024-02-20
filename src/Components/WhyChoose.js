@@ -3,10 +3,7 @@ import React from "react";
 const WhyChoose = () => {
   return (
     <div className="main-page-wrapper">
-      <div
-        className="team-section-one mt-100 lg-mt-80"
-        style={{ backgroundColor: "#ebf3ee" }}
-      >
+      <div className="team-section-one mt-100 lg-mt-80">
         <div className="container">
           <div className="position-relative">
             <div className="title-one mb-40 lg-mb-20 wow fadeInUp">
@@ -14,7 +11,7 @@ const WhyChoose = () => {
                 style={{
                   fontSize: "42px",
                   fontWeight: "200",
-                  paddingTop: "20px",
+                  textAlign: "center",
                 }}
               >
                 Why Choose Pramesh

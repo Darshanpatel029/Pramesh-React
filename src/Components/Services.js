@@ -10,10 +10,7 @@ import { Link } from "react-router-dom";
 const Services = () => {
   return (
     <div className="main-page-wrapper">
-      <div
-        className="service team-section-one mt-100 lg-mt-80 "
-        style={{ backgroundColor: "#ebf3ee" }}
-      >
+      <div className="service team-section-one mt-100 lg-mt-80 ">
         <div className="container">
           <div className="position-relative">
             <div className="title-one mb-40 lg-mb-20 wow fadeInUp">
@@ -21,7 +18,7 @@ const Services = () => {
                 style={{
                   fontSize: "42px",
                   fontWeight: "200",
-                  paddingTop: "20px",
+                  textAlign: "center",
                 }}
               >
                 Our Services
