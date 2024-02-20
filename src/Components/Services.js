@@ -10,17 +10,29 @@ import { Link } from "react-router-dom";
 const Services = () => {
   return (
     <div className="main-page-wrapper">
-      <div className="team-section-one mt-100 lg-mt-80">
+      <div
+        className="service team-section-one mt-100 lg-mt-80 "
+        style={{ backgroundColor: "#ebf3ee" }}
+      >
         <div className="container">
           <div className="position-relative">
             <div className="title-one mb-40 lg-mb-20 wow fadeInUp">
-              <h2 style={{ fontSize: "42px", fontWeight: "200" }}>
+              <h2
+                style={{
+                  fontSize: "42px",
+                  fontWeight: "200",
+                  paddingTop: "20px",
+                }}
+              >
                 Our Services
               </h2>
             </div>
             <div className="row">
               <div className="d-flex flex-wrap gap-4 justify-content-center">
-                <Link className="col-lg-3 col-sm-6 wow fadeInUp choose slide-left-to-right" to="/MutualFund">
+                <Link
+                  className="col-lg-3 col-sm-6 wow fadeInUp choose slide-left-to-right"
+                  to="/MutualFund"
+                >
                   <div className="card-style-four mt-35">
                     <div className="icon">
                       <img src={img1} alt="" />
@@ -33,7 +45,10 @@ const Services = () => {
                     </div>
                   </div>
                 </Link>
-                <Link className="col-lg-3 col-sm-6 wow fadeInUp choose slide-left-to-right" to="/EquityInvestment">
+                <Link
+                  className="col-lg-3 col-sm-6 wow fadeInUp choose slide-left-to-right"
+                  to="/EquityInvestment"
+                >
                   <div className="card-style-four mt-35">
                     <div className="icon">
                       <img src={img2} alt="" />
@@ -47,7 +62,10 @@ const Services = () => {
                     </div>
                   </div>
                 </Link>
-                <Link className="col-lg-3 col-sm-6 wow fadeInUp choose slide-left-to-right" to="/Insurance">
+                <Link
+                  className="col-lg-3 col-sm-6 wow fadeInUp choose slide-left-to-right"
+                  to="/Insurance"
+                >
                   <div className="card-style-four mt-35">
                     <div className="icon">
                       <img src={img3} alt="" />
@@ -62,7 +80,10 @@ const Services = () => {
                 </Link>
               </div>
               <div className="d-flex flex-wrap gap-4 justify-content-center">
-                <Link className="col-lg-3 col-sm-6 wow fadeInUp choose slide-right-to-left" to="/LoanServices">
+                <Link
+                  className="col-lg-3 col-sm-6 wow fadeInUp choose slide-right-to-left"
+                  to="/LoanServices"
+                >
                   <div className="card-style-four mt-35">
                     <div className="icon">
                       <img src={img4} alt="" />
@@ -74,7 +95,10 @@ const Services = () => {
                     </div>
                   </div>
                 </Link>
-                <Link className="col-lg-3 col-sm-6 wow fadeInUp choose slide-right-to-left" to="/RealEstate">
+                <Link
+                  className="col-lg-3 col-sm-6 wow fadeInUp choose slide-right-to-left"
+                  to="/RealEstate"
+                >
                   <div className="card-style-four mt-35">
                     <div className="icon">
                       <img src={img5} alt="" />

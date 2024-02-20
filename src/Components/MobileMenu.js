@@ -6,7 +6,7 @@ const MobileMenu = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsVisible(window.innerWidth <= 425);
+      setIsVisible(window.innerWidth <= 768);
     };
     handleResize();
     window.addEventListener("resize", handleResize);
@@ -23,37 +23,25 @@ const MobileMenu = () => {
         <div className="mobile-menu-container">
           <ul className="mobile-menu-items text-center">
             <li>
-              <Link to="/OurStory">
+              <Link to="/OurStory" className="mobile-menu-container">
                 <i className="bi bi-file-person"></i>
                 <span>AboutUs</span>
               </Link>
             </li>
             <li>
-              <Link to="/MutualFund">
+              <Link to="/MutualFund" className="mobile-menu-container">
                 <i className="bi bi-gear"></i>
                 <span>Services</span>
               </Link>
             </li>
             <li>
-              <Link to="/">
+              <Link to="/" className="mobile-menu-container">
                 <i className="bi bi-house-door"></i>
                 <span>Home</span>
               </Link>
             </li>
             <li>
-              <Link to="/Team">
-                <i className="bi bi-people-fill"></i>
-                <span>Team</span>
-              </Link>
-            </li>
-            <li>
-              <Link to="/Downloads">
-                <i className="bi bi-arrow-down-circle"></i>
-                <span>Downloads</span>
-              </Link>
-            </li>
-            <li>
-              <Link to="/contactUs">
+              <Link to="/contactUs" className="mobile-menu-container">
                 <i className="bi bi-telephone"></i>
                 <span>ContactUs</span>
               </Link>
