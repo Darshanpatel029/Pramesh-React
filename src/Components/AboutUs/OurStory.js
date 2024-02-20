@@ -2,8 +2,12 @@ import React from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 import BannerImg from "../../images/lazy.png";
-import shape from "../../images/shape/shape_32.png";
+import shape from "../../images/shape/shape_31.png";
 import Img1 from "../../images/media/img_32.jpg";
+import Img2 from "../../images/ourStory/ourStory2.jpeg";
+import Img3 from "../../images/ourStory/ourStory1.jpeg";
+import Img4 from "../../images/ourStory/ourStory4.jpeg";
+import Img5 from "../../images/ourStory/ourStory5.jpg";
 import { Link } from "react-router-dom";
 
 const OurStory = () => {
@@ -42,10 +46,7 @@ const OurStory = () => {
         <div className="text-feature-one  lg-mt-80">
           <div className="row">
             <div className="col-lg-5 wow fadeInLeft">
-              <img
-                src={"https://www.prameshwealth.com/assets/images/home3/1.png"}
-                alt="img"
-              />
+              <img src={Img3} alt="img" />
             </div>
             <div className="col-lg-6 ms-auto">
               <div className="row">
@@ -117,26 +118,17 @@ const OurStory = () => {
             <div className="row">
               <div className="col-lg-4 col-md-6 d-flex wow fadeInUp">
                 <div className="style-two vstack tran3s w-100 mt-30">
-                  <img
-                    src={"https://www.prameshwealth.com/eng3/x6.jpg"}
-                    alt="img"
-                  />
+                  <img src={Img2} alt="img" />
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 d-flex wow fadeInUp">
                 <div className="style-two vstack tran3s w-100 mt-30">
-                  <img
-                    src={"https://www.prameshwealth.com/eng3/x7.jpg"}
-                    alt="img"
-                  />
+                  <img src={Img5} alt="img" style={{ height: "100%" }} />
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 d-flex wow fadeInUp">
                 <div className="style-two vstack tran3s w-100 mt-30">
-                  <img
-                    src={"https://www.prameshwealth.com/eng3/x8.jpg"}
-                    alt="img"
-                  />
+                  <img src={Img4} alt="img" style={{ height: "100%" }} />
                 </div>
               </div>
             </div>

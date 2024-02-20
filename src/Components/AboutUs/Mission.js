@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 import BannerImg from "../../images/lazy.png";
-import shape from "../../images/shape/shape_26.png";
+import shape from "../../images/shape/shape_31.png";
 import Img1 from "../../images/media/img_31.jpg";
 import { Link } from "react-router-dom";
 
